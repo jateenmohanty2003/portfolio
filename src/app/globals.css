@@ -1,0 +1,147 @@
+@import url('https://use.typekit.net/fgd5ytz.css');
+@import 'tailwindcss';
+
+@theme {
+  --color-paper-50: #fbf8f2;
+  --color-paper-100: #f6f1e8;
+  --color-paper-200: #eee7da;
+  --color-paper-300: #e2d9c7;
+  --color-ink-900: #1b1814;
+  --color-ink-800: #2a251f;
+  --color-ink-700: #3a332b;
+  --color-ink-600: #5c5247;
+  --color-ink-500: #8a7f71;
+  --color-ink-400: #b5ab9b;
+  --color-persimmon-500: #f2542d;
+  --color-persimmon-600: #d9421c;
+  --color-persimmon-100: #fbe0d3;
+  --color-leaf-500: #4f7b3f;
+  --color-leaf-100: #e2ebdb;
+
+  --color-bg: var(--color-paper-100);
+  --color-bg-secondary: var(--color-paper-200);
+  --color-bg-inverse: var(--color-ink-900);
+  --color-bg-elevated: var(--color-paper-50);
+  --color-surface-card: var(--color-paper-50);
+  --color-surface-elevated: #fdfbf6;
+  --color-fg: var(--color-ink-900);
+  --color-fg-secondary: var(--color-ink-600);
+  --color-fg-muted: var(--color-ink-500);
+  --color-fg-inverse: var(--color-paper-100);
+  --color-accent: var(--color-persimmon-500);
+  --color-accent-hover: var(--color-persimmon-600);
+  --color-accent-muted: rgba(242, 84, 45, 0.1);
+  --color-border: rgba(27, 24, 20, 0.1);
+  --color-border-strong: rgba(27, 24, 20, 0.22);
+  --color-border-inverse: rgba(246, 241, 232, 0.14);
+
+  --font-display: 'loos-extended', 'loos', 'Loos', system-ui, sans-serif;
+  --font-sans: 'articulat-cf', 'Articulat CF', 'Inter', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+
+  --text-display-hero: clamp(64px, 10vw, 148px);
+  --text-display-2xl: clamp(56px, 7.5vw, 128px);
+  --text-display-xl: clamp(44px, 5.5vw, 88px);
+  --text-display-lg: clamp(36px, 4vw, 64px);
+  --text-display-md: clamp(28px, 2.8vw, 44px);
+  --text-display-sm: clamp(22px, 2.2vw, 32px);
+  --text-marquee: clamp(28px, 6vw, 48px);
+  --text-lg: clamp(18px, 1.3vw, 22px);
+  --text-base: 17px;
+  --text-sm: 15px;
+  --text-label: 12px;
+  --text-2xs: 11px;
+  --text-xs: 13px;
+}
+
+:root[data-theme='dark'] {
+  --color-bg: #14110d;
+  --color-bg-secondary: #1e1a14;
+  --color-bg-inverse: var(--color-paper-100);
+  --color-bg-elevated: #1a1612;
+  --color-surface-card: #1a1612;
+  --color-surface-elevated: #221d17;
+  --color-fg: #f0e9dc;
+  --color-fg-secondary: #b5ab9b;
+  --color-fg-muted: #8a7f71;
+  --color-fg-inverse: var(--color-ink-900);
+  --color-accent: #ff6f47;
+  --color-accent-hover: #ff8761;
+  --color-accent-muted: rgba(255, 111, 71, 0.14);
+  --color-border: rgba(240, 233, 220, 0.1);
+  --color-border-strong: rgba(240, 233, 220, 0.22);
+}
+
+@layer base {
+  :root {
+    color-scheme: light;
+    background-color: var(--color-bg);
+    color: var(--color-fg);
+  }
+
+  html {
+    overflow-x: clip;
+  }
+
+  body {
+    background: var(--color-bg);
+    color: var(--color-fg);
+    font-family: var(--font-sans);
+    font-size: var(--text-base);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    overflow-x: clip;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-display);
+    font-weight: 700;
+    letter-spacing: -0.022em;
+    line-height: 1.02;
+  }
+}
+
+@keyframes accent-line-travel {
+  0% { transform: translateY(0); }
+  to { transform: translateY(calc(100% - 1rem)); }
+}
+
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+@keyframes status-dot-pulse {
+  0%, to {
+    box-shadow: 0 0 0 3px color-mix(in oklab, var(--color-leaf-500) 18%, transparent);
+  }
+  50% {
+    box-shadow: 0 0 0 6px color-mix(in oklab, var(--color-leaf-500) 8%, transparent);
+  }
+}
+
+@keyframes testimonials-scroll {
+  0% { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+
+.animate-accent-line-travel { animation: accent-line-travel 2.4s ease-in-out infinite alternate; }
+.animate-marquee { animation: marquee 24s linear infinite; }
+.animate-status-dot-pulse { animation: status-dot-pulse 2.4s cubic-bezier(0.65, 0, 0.35, 1) infinite; }
+.animate-testimonials-scroll { animation: testimonials-scroll 36s linear infinite; animation-delay: 1s; animation-fill-mode: both; }
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-accent-line-travel,
+  .animate-marquee,
+  .animate-status-dot-pulse,
+  .animate-testimonials-scroll {
+    animation: none;
+  }
+
+  .animate-accent-line-travel {
+    transform: translateY(-50%);
+  }
+}
