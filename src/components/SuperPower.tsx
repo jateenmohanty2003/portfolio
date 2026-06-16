@@ -89,7 +89,7 @@ const SuperPower = () => {
                 <path d='m3 17 9 5 9-5' />
               </svg>
             </div>
-            <h3 className='font-display text-display-md font-extrabold uppercase tracking-tight text-fg md:text-display-lg'>
+            <h3 className='font-display text-display-md font-extrabold uppercase tracking-tight text-fg'>
               <span
                 className='blur-word inline-block'
                 style={{
@@ -102,31 +102,31 @@ const SuperPower = () => {
                   opacity: 1,
                 }}
               >
-                Product
+                Product Designer
               </span>
             </h3>
             <div className='mt-6 flex flex-wrap justify-start gap-2 md:mt-8'>
               <span className='inline-flex whitespace-nowrap rounded-full border font-sans font-medium border-border bg-surface-card text-fg-secondary px-4 py-1.5 text-sm'>
-                0→1 strategy
+                Wireframes
               </span>
               <span className='inline-flex whitespace-nowrap rounded-full border font-sans font-medium border-border bg-surface-card text-fg-secondary px-4 py-1.5 text-sm'>
-                Roadmapping
+                Prototyping
               </span>
               <span className='inline-flex whitespace-nowrap rounded-full border font-sans font-medium border-border bg-surface-card text-fg-secondary px-4 py-1.5 text-sm'>
-                PRD writing
+                Design System
               </span>
               <span className='inline-flex whitespace-nowrap rounded-full border font-sans font-medium border-border bg-surface-card text-fg-secondary px-4 py-1.5 text-sm'>
-                Stakeholder alignment
+                High Fidelity UI
               </span>
               <span className='inline-flex whitespace-nowrap rounded-full border font-sans font-medium border-border bg-surface-card text-fg-secondary px-4 py-1.5 text-sm'>
                 Shipping &amp; metrics
               </span>
+              <span className='inline-flex whitespace-nowrap rounded-full border font-sans font-medium border-border bg-surface-card text-fg-secondary px-4 py-1.5 text-sm'>
+                Figma
+              </span>
             </div>
             <p className='mt-8 font-sans text-sm leading-relaxed text-fg-secondary'>
-              I don't just manage products — I obsess over them. Give me a messy problem, zero
-              documentation, and a deadline, and I'll have a working prototype before you finish
-              explaining the brief. I've done it 0→1 more times than I can count. Twice for YC
-              companies.
+              Give me a messy brief, zero documentation and a deadline. I will have a working prototype before you finish explaining the problem. Led 0 to 1 builds across AI travel, enterprise HRMS and e-commerce , twice for UAE founders.
             </p>
           </div>
           <div
@@ -163,7 +163,7 @@ const SuperPower = () => {
                 <circle cx={12} cy={12} r='3.25' />
               </svg>
             </div>
-            <h3 className='font-display text-display-md font-extrabold uppercase tracking-tight text-fg md:text-display-lg'>
+            <h3 className='font-display text-display-md font-extrabold uppercase tracking-tight text-fg'>
               <span
                 className='blur-word inline-block'
                 style={{
@@ -181,25 +181,23 @@ const SuperPower = () => {
             </h3>
             <div className='mt-6 flex flex-wrap justify-start gap-2 md:mt-8'>
               <span className='inline-flex whitespace-nowrap rounded-full border font-sans font-medium border-border bg-surface-card text-fg-secondary px-4 py-1.5 text-sm'>
-                LLM integration
+                AI Chatbot UX
               </span>
               <span className='inline-flex whitespace-nowrap rounded-full border font-sans font-medium border-border bg-surface-card text-fg-secondary px-4 py-1.5 text-sm'>
-                Prompt engineering
+                Smart Onboarding
               </span>
               <span className='inline-flex whitespace-nowrap rounded-full border font-sans font-medium border-border bg-surface-card text-fg-secondary px-4 py-1.5 text-sm'>
-                n8n automation
+                Scoring Systems
               </span>
               <span className='inline-flex whitespace-nowrap rounded-full border font-sans font-medium border-border bg-surface-card text-fg-secondary px-4 py-1.5 text-sm'>
-                AI workflow design
+                AI Workflow design
               </span>
               <span className='inline-flex whitespace-nowrap rounded-full border font-sans font-medium border-border bg-surface-card text-fg-secondary px-4 py-1.5 text-sm'>
-                Tools from scratch
+                Automation UX
               </span>
             </div>
             <p className='mt-8 font-sans text-sm leading-relaxed text-fg-secondary'>
-              I build things with AI that make people go "wait, how is this even legal?" Automations
-              that replace 3-hour tasks with 3 seconds. Tools that feel like cheating. If it can be
-              prompted, piped, or automated — I've probably already tried it at 1am.
+              Designed AI-assisted trip flows that drove 100+ paid bookings in the first 30 days of private beta. Built Bue AI candidate scoring and evaluation UX. I make AI feel natural, not clinical, something people actually want to use again.
             </p>
           </div>
         </article>
@@ -231,7 +229,7 @@ const SuperPower = () => {
                 <path d='M11.6 16.8a3 3 0 1 1-5.8-1.6' />
               </svg>
             </div>
-            <h3 className='font-display text-display-md font-extrabold uppercase tracking-tight text-fg md:text-display-lg'>
+            <h3 className='font-display text-display-md font-extrabold uppercase tracking-tight text-fg'>
               <span
                 className='blur-word inline-block'
                 style={{
@@ -244,27 +242,25 @@ const SuperPower = () => {
                   opacity: 1,
                 }}
               >
-                Marketing
+                USER RESEARCH
               </span>
             </h3>
             <div className='mt-6 flex flex-wrap justify-start gap-2 md:mt-8'>
               <span className='inline-flex whitespace-nowrap rounded-full border font-sans font-medium border-border bg-surface-card text-fg-secondary px-4 py-1.5 text-sm'>
-                GTM strategy
+                User Flows
               </span>
               <span className='inline-flex whitespace-nowrap rounded-full border font-sans font-medium border-border bg-surface-card text-fg-secondary px-4 py-1.5 text-sm'>
-                Content-led acquisition
+                Journey Mapping
               </span>
               <span className='inline-flex whitespace-nowrap rounded-full border font-sans font-medium border-border bg-surface-card text-fg-secondary px-4 py-1.5 text-sm'>
-                Sales pipelines
+                Usability Testing
               </span>
               <span className='inline-flex whitespace-nowrap rounded-full border font-sans font-medium border-border bg-surface-card text-fg-secondary px-4 py-1.5 text-sm'>
-                Conversion optimisation
+                Conversion Optimisation
               </span>
             </div>
             <p className='mt-8 font-sans text-sm leading-relaxed text-fg-secondary'>
-              I write copy, build funnels, run pipelines, and find the weird content angles that
-              actually convert. I grew One Moment to 5,000 users a month without spending a rupee on
-              ads. Organic is a superpower when you actually understand your audience.
+              Led end-to-end research that pushed booking completion rates up by 30%. Research is not a phase for me, it's the foundation. I find the gap between what users say they want and what they actually do.
             </p>
           </div>
           <div
@@ -294,7 +290,7 @@ const SuperPower = () => {
                 <path d='M16.5 3.5a2.12 2.12 0 0 1 3 3L7 19l-4 1 1-4Z' />
               </svg>
             </div>
-            <h3 className='font-display text-display-md font-extrabold uppercase tracking-tight text-fg md:text-display-lg'>
+            <h3 className='font-display text-display-md font-extrabold uppercase tracking-tight text-fg'>
               <span
                 className='blur-word inline-block'
                 style={{
@@ -307,30 +303,26 @@ const SuperPower = () => {
                   opacity: 1,
                 }}
               >
-                Design
+                Storytelling
               </span>
             </h3>
             <div className='mt-6 flex flex-wrap justify-start gap-2 md:mt-8'>
               <span className='inline-flex whitespace-nowrap rounded-full border font-sans font-medium border-border bg-surface-card text-fg-secondary px-4 py-1.5 text-sm'>
-                UX research
+                UX Decks
               </span>
               <span className='inline-flex whitespace-nowrap rounded-full border font-sans font-medium border-border bg-surface-card text-fg-secondary px-4 py-1.5 text-sm'>
-                Design systems
+                Stakeholder Pitches
               </span>
               <span className='inline-flex whitespace-nowrap rounded-full border font-sans font-medium border-border bg-surface-card text-fg-secondary px-4 py-1.5 text-sm'>
-                Figma
+                Case Studies
               </span>
               <span className='inline-flex whitespace-nowrap rounded-full border font-sans font-medium border-border bg-surface-card text-fg-secondary px-4 py-1.5 text-sm'>
-                Product design
-              </span>
-              <span className='inline-flex whitespace-nowrap rounded-full border font-sans font-medium border-border bg-surface-card text-fg-secondary px-4 py-1.5 text-sm'>
-                User insight
+                Design Narrative
+
               </span>
             </div>
             <p className='mt-8 font-sans text-sm leading-relaxed text-fg-secondary'>
-              Design isn't decoration — it's the argument your product makes without saying a word.
-              I do UX research, design systems, Figma, and the kind of obsessive detail work that
-              makes users feel like the product was made just for them.
+              Good design without a good story gets ignored. I build client-ready UX decks and prototypes that make stakeholders say yes before the meeting ends. Every design decision I make has a reason behind it and I know how to tell that story clearly.
             </p>
           </div>
         </article>

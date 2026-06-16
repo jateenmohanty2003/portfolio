@@ -6,7 +6,7 @@ import Reveal from './Reveal';
 
 const SelectedWork = () => {
   return (
-    <section id='work' className='border-t border-border bg-bg px-6 py-20 md:px-10 md:py-24'>
+    <section id='work' className='border-t border-border bg-bg px-6 py-6 md:px-10 md:py-10'>
       <div className='mx-auto w-full max-w-container'>
         <div className='mb-10 flex justify-center md:mb-12'>
           <Image
@@ -198,8 +198,8 @@ const SelectedWork = () => {
                 <div>
                   <p className='font-sans text-sm tabular-nums text-fg-muted'>01</p>
                   <p className='mt-6 font-sans text-sm text-fg-muted'>
-                    One Moment<span className='mx-2 text-border-strong'>/</span>
-                    Nov 2024 - Present
+                    Ziarah.ai<span className='mx-2 text-border-strong'>/</span>
+                    2024 - 2025
                   </p>
                   <h3 className='mt-6 max-w-[20ch] font-display text-xl font-bold leading-[1.15] text-fg md:text-display-sm'>
                     <span
@@ -214,162 +214,47 @@ const SelectedWork = () => {
                         opacity: 1,
                       }}
                     >
-                      Premium
+                      I built a travel tech product solo and it paid for itself in 30 days
                     </span>
                     <span
-                      className='blur-word inline-block'
-                      style={{
-                        marginRight: '0.28em',
-                        translate: 'none',
-                        rotate: 'none',
-                        scale: 'none',
-                        transform: 'translate(0px, 0px)',
-                        filter: 'blur(0px)',
-                        opacity: 1,
-                      }}
+
                     >
-                      travel
-                    </span>
-                    <span
-                      className='blur-word inline-block'
-                      style={{
-                        marginRight: '0.28em',
-                        translate: 'none',
-                        rotate: 'none',
-                        scale: 'none',
-                        transform: 'translate(0px, 0px)',
-                        filter: 'blur(0px)',
-                        opacity: 1,
-                      }}
-                    >
-                      website
-                    </span>
-                    <span
-                      className='blur-word inline-block'
-                      style={{
-                        marginRight: '0.28em',
-                        translate: 'none',
-                        rotate: 'none',
-                        scale: 'none',
-                        transform: 'translate(0px, 0px)',
-                        filter: 'blur(0px)',
-                        opacity: 1,
-                      }}
-                    >
-                      +
-                    </span>
-                    <span
-                      className='blur-word inline-block'
-                      style={{
-                        marginRight: '0.28em',
-                        translate: 'none',
-                        rotate: 'none',
-                        scale: 'none',
-                        transform: 'translate(0px, 0px)',
-                        filter: 'blur(0px)',
-                        opacity: 1,
-                      }}
-                    >
-                      AI
-                    </span>
-                    <span
-                      className='blur-word inline-block'
-                      style={{
-                        marginRight: '0.28em',
-                        translate: 'none',
-                        rotate: 'none',
-                        scale: 'none',
-                        transform: 'translate(0px, 0px)',
-                        filter: 'blur(0px)',
-                        opacity: 1,
-                      }}
-                    >
-                      trip
-                    </span>
-                    <span
-                      className='blur-word inline-block'
-                      style={{
-                        marginRight: '0.28em',
-                        translate: 'none',
-                        rotate: 'none',
-                        scale: 'none',
-                        transform: 'translate(0px, 0px)',
-                        filter: 'blur(0px)',
-                        opacity: 1,
-                      }}
-                    >
-                      planner
-                    </span>
-                    <span
-                      className='blur-word inline-block'
-                      style={{
-                        marginRight: '0.28em',
-                        translate: 'none',
-                        rotate: 'none',
-                        scale: 'none',
-                        transform: 'translate(0px, 0px)',
-                        filter: 'blur(0px)',
-                        opacity: 1,
-                      }}
-                    >
-                      +
-                    </span>
-                    <span
-                      className='blur-word inline-block'
-                      style={{
-                        marginRight: '0.28em',
-                        translate: 'none',
-                        rotate: 'none',
-                        scale: 'none',
-                        transform: 'translate(0px, 0px)',
-                        filter: 'blur(0px)',
-                        opacity: 1,
-                      }}
-                    >
-                      lead
-                    </span>
-                    <span
-                      className='blur-word inline-block'
-                      style={{
-                        marginRight: '0.28em',
-                        translate: 'none',
-                        rotate: 'none',
-                        scale: 'none',
-                        transform: 'translate(0px, 0px)',
-                        filter: 'blur(0px)',
-                        opacity: 1,
-                      }}
-                    >
-                      engine
+
                     </span>
                   </h3>
                   <div className='mt-8 flex flex-wrap gap-2'>
                     <span className='inline-flex rounded-full bg-bg-secondary px-3 py-1.5 font-sans text-2xs font-medium uppercase tracking-[0.12em] text-fg-secondary'>
-                      Product
+                      0 → 1 Design
                     </span>
                     <span className='inline-flex rounded-full bg-bg-secondary px-3 py-1.5 font-sans text-2xs font-medium uppercase tracking-[0.12em] text-fg-secondary'>
-                      Design
+                      AI Trip Planning
                     </span>
                     <span className='inline-flex rounded-full bg-bg-secondary px-3 py-1.5 font-sans text-2xs font-medium uppercase tracking-[0.12em] text-fg-secondary'>
-                      AI
+                      Flight Booking
                     </span>
                     <span className='inline-flex rounded-full bg-bg-secondary px-3 py-1.5 font-sans text-2xs font-medium uppercase tracking-[0.12em] text-fg-secondary'>
-                      Marketing
+                      UX Research
                     </span>
                   </div>
                 </div>
                 <div className='mt-10 flex flex-wrap items-end justify-between gap-6 md:mt-12'>
                   <div className='flex flex-wrap gap-x-10 gap-y-6'>
                     <div>
-                      <p className='font-display text-lg font-bold text-fg md:text-xl'>Rs. 20L+</p>
+                      <p className='font-display text-lg font-bold text-fg md:text-xl'>100+</p>
                       <p className='mt-1 max-w-[14ch] font-sans text-xs leading-snug text-fg-muted'>
-                        Revenue
+                        Paid booking in first 30 days
                       </p>
                     </div>
                     <div>
-                      <p className='font-display text-lg font-bold text-fg md:text-xl'>5,000</p>
+                      <p className='font-display text-lg font-bold text-fg md:text-xl'>300+</p>
                       <p className='mt-1 max-w-[14ch] font-sans text-xs leading-snug text-fg-muted'>
-                        Users/month
+                        Itineraries built daily
+                      </p>
+                    </div>
+                    <div>
+                      <p className='font-display text-lg font-bold text-fg md:text-xl'>+30%</p>
+                      <p className='mt-1 max-w-[14ch] font-sans text-xs leading-snug text-fg-muted'>
+                        User retention
                       </p>
                     </div>
                   </div>
@@ -387,7 +272,7 @@ const SelectedWork = () => {
                   loading='lazy'
                   decoding='async'
                   data-nimg='fill'
-                  className='object-cover object-center'
+                  className='object-cover'
                   width={100}
                   height={100}
                   style={{
@@ -401,7 +286,7 @@ const SelectedWork = () => {
                     color: 'transparent',
                   }}
                   sizes='(max-width: 1024px) 100vw, 50vw'
-                  src='/SelectedWork1.webp'
+                  src='/Ziarah_Cover1.png'
                 />
                 <Link
                   href='https://onemomenthq.com'
@@ -447,7 +332,7 @@ const SelectedWork = () => {
                 <div>
                   <p className='font-sans text-sm tabular-nums text-fg-muted'>02</p>
                   <p className='mt-6 font-sans text-sm text-fg-muted'>
-                    Auxy.ai<span className='mx-2 text-border-strong'>/</span>2024
+                    Buesuite.com<span className='mx-2 text-border-strong'>/</span>2025 - Present
                   </p>
                   <h3 className='mt-6 max-w-[20ch] font-display text-xl font-bold leading-[1.15] text-fg md:text-display-sm'>
                     <span
@@ -462,108 +347,53 @@ const SelectedWork = () => {
                         opacity: 1,
                       }}
                     >
-                      End-to-end
+                      Designed the hiring stack that got validated by investors
                     </span>
                     <span
-                      className='blur-word inline-block'
-                      style={{
-                        marginRight: '0.28em',
-                        translate: 'none',
-                        rotate: 'none',
-                        scale: 'none',
-                        transform: 'translate(0px, 0px)',
-                        filter: 'blur(0px)',
-                        opacity: 1,
-                      }}
                     >
-                      Framer
-                    </span>
-                    <span
-                      className='blur-word inline-block'
-                      style={{
-                        marginRight: '0.28em',
-                        translate: 'none',
-                        rotate: 'none',
-                        scale: 'none',
-                        transform: 'translate(0px, 0px)',
-                        filter: 'blur(0px)',
-                        opacity: 1,
-                      }}
-                    >
-                      website
-                    </span>
-                    <span
-                      className='blur-word inline-block'
-                      style={{
-                        marginRight: '0.28em',
-                        translate: 'none',
-                        rotate: 'none',
-                        scale: 'none',
-                        transform: 'translate(0px, 0px)',
-                        filter: 'blur(0px)',
-                        opacity: 1,
-                      }}
-                    >
-                      +
-                    </span>
-                    <span
-                      className='blur-word inline-block'
-                      style={{
-                        marginRight: '0.28em',
-                        translate: 'none',
-                        rotate: 'none',
-                        scale: 'none',
-                        transform: 'translate(0px, 0px)',
-                        filter: 'blur(0px)',
-                        opacity: 1,
-                      }}
-                    >
-                      design
-                    </span>
-                    <span
-                      className='blur-word inline-block'
-                      style={{
-                        marginRight: '0.28em',
-                        translate: 'none',
-                        rotate: 'none',
-                        scale: 'none',
-                        transform: 'translate(0px, 0px)',
-                        filter: 'blur(0px)',
-                        opacity: 1,
-                      }}
-                    >
-                      system
                     </span>
                   </h3>
                   <div className='mt-8 flex flex-wrap gap-2'>
                     <span className='inline-flex rounded-full bg-bg-secondary px-3 py-1.5 font-sans text-2xs font-medium uppercase tracking-[0.12em] text-fg-secondary'>
-                      Design
+                      Enterprise UX
                     </span>
                     <span className='inline-flex rounded-full bg-bg-secondary px-3 py-1.5 font-sans text-2xs font-medium uppercase tracking-[0.12em] text-fg-secondary'>
-                      Framer
+                      AI Recruitment
                     </span>
                     <span className='inline-flex rounded-full bg-bg-secondary px-3 py-1.5 font-sans text-2xs font-medium uppercase tracking-[0.12em] text-fg-secondary'>
-                      Branding
+                      HRMS
                     </span>
                     <span className='inline-flex rounded-full bg-bg-secondary px-3 py-1.5 font-sans text-2xs font-medium uppercase tracking-[0.12em] text-fg-secondary'>
-                      Prototyping
+                      ATS
+                    </span>
+                    <span className='inline-flex rounded-full bg-bg-secondary px-3 py-1.5 font-sans text-2xs font-medium uppercase tracking-[0.12em] text-fg-secondary'>
+                      Design System
+                    </span>
+                    <span className='inline-flex rounded-full bg-bg-secondary px-3 py-1.5 font-sans text-2xs font-medium uppercase tracking-[0.12em] text-fg-secondary'>
+                      RBAC
                     </span>
                   </div>
                 </div>
                 <div className='mt-10 flex flex-wrap items-end justify-between gap-6 md:mt-12'>
                   <div className='flex flex-wrap gap-x-10 gap-y-6'>
                     <div>
-                      <p className='font-display text-lg font-bold text-fg md:text-xl'>2 weeks</p>
+                      <p className='font-display text-lg font-bold text-fg md:text-xl'>Investors</p>
                       <p className='mt-1 max-w-[14ch] font-sans text-xs leading-snug text-fg-muted'>
-                        Delivery
+                        Validated Product
+                      </p>
+                    </div>
+                    <div>
+                      <p className='font-display text-lg font-bold text-fg md:text-xl'>REM-Based</p>
+                      <p className='mt-1 max-w-[14ch] font-sans text-xs leading-snug text-fg-muted'>
+                        Scalable design system
                       </p>
                     </div>
                     <div>
                       <p className='font-display text-lg font-bold text-fg md:text-xl'>
-                        End-to-end
+                        Full Stack
                       </p>
                       <p className='mt-1 max-w-[14ch] font-sans text-xs leading-snug text-fg-muted'>
-                        Scope
+                        HRMS and ATS coverage
                       </p>
                     </div>
                   </div>
@@ -595,7 +425,7 @@ const SelectedWork = () => {
                     color: 'transparent',
                   }}
                   sizes='(max-width: 1024px) 100vw, 50vw'
-                  src='/SelectedWork1.webp'
+                  src='/Bue Suite_Cover.png'
                 />
                 <Link
                   href='https://auxy.ai'
@@ -641,7 +471,7 @@ const SelectedWork = () => {
                 <div>
                   <p className='font-sans text-sm tabular-nums text-fg-muted'>03</p>
                   <p className='mt-6 font-sans text-sm text-fg-muted'>
-                    Meezo<span className='mx-2 text-border-strong'>/</span>2022
+                    Battery Driver · Freelance<span className='mx-2 text-border-strong'>/</span>2025
                   </p>
                   <h3 className='mt-6 max-w-[20ch] font-display text-xl font-bold leading-[1.15] text-fg md:text-display-sm'>
                     <span
@@ -656,122 +486,41 @@ const SelectedWork = () => {
                         opacity: 1,
                       }}
                     >
-                      Intro
+                      Designed for people who had never used an app before
                     </span>
                     <span
-                      className='blur-word inline-block'
-                      style={{
-                        marginRight: '0.28em',
-                        translate: 'none',
-                        rotate: 'none',
-                        scale: 'none',
-                        transform: 'translate(0px, 0px)',
-                        filter: 'blur(0px)',
-                        opacity: 1,
-                      }}
                     >
-                      experience
-                    </span>
-                    <span
-                      className='blur-word inline-block'
-                      style={{
-                        marginRight: '0.28em',
-                        translate: 'none',
-                        rotate: 'none',
-                        scale: 'none',
-                        transform: 'translate(0px, 0px)',
-                        filter: 'blur(0px)',
-                        opacity: 1,
-                      }}
-                    >
-                      +
-                    </span>
-                    <span
-                      className='blur-word inline-block'
-                      style={{
-                        marginRight: '0.28em',
-                        translate: 'none',
-                        rotate: 'none',
-                        scale: 'none',
-                        transform: 'translate(0px, 0px)',
-                        filter: 'blur(0px)',
-                        opacity: 1,
-                      }}
-                    >
-                      first
-                    </span>
-                    <span
-                      className='blur-word inline-block'
-                      style={{
-                        marginRight: '0.28em',
-                        translate: 'none',
-                        rotate: 'none',
-                        scale: 'none',
-                        transform: 'translate(0px, 0px)',
-                        filter: 'blur(0px)',
-                        opacity: 1,
-                      }}
-                    >
-                      version
-                    </span>
-                    <span
-                      className='blur-word inline-block'
-                      style={{
-                        marginRight: '0.28em',
-                        translate: 'none',
-                        rotate: 'none',
-                        scale: 'none',
-                        transform: 'translate(0px, 0px)',
-                        filter: 'blur(0px)',
-                        opacity: 1,
-                      }}
-                    >
-                      app
-                    </span>
-                    <span
-                      className='blur-word inline-block'
-                      style={{
-                        marginRight: '0.28em',
-                        translate: 'none',
-                        rotate: 'none',
-                        scale: 'none',
-                        transform: 'translate(0px, 0px)',
-                        filter: 'blur(0px)',
-                        opacity: 1,
-                      }}
-                    >
-                      design
                     </span>
                   </h3>
                   <div className='mt-8 flex flex-wrap gap-2'>
                     <span className='inline-flex rounded-full bg-bg-secondary px-3 py-1.5 font-sans text-2xs font-medium uppercase tracking-[0.12em] text-fg-secondary'>
-                      Design
+                      Inclusive Design
                     </span>
                     <span className='inline-flex rounded-full bg-bg-secondary px-3 py-1.5 font-sans text-2xs font-medium uppercase tracking-[0.12em] text-fg-secondary'>
-                      App
+                      Mobile UX
                     </span>
                     <span className='inline-flex rounded-full bg-bg-secondary px-3 py-1.5 font-sans text-2xs font-medium uppercase tracking-[0.12em] text-fg-secondary'>
-                      Branding
+                      Low Literacy Users
                     </span>
                     <span className='inline-flex rounded-full bg-bg-secondary px-3 py-1.5 font-sans text-2xs font-medium uppercase tracking-[0.12em] text-fg-secondary'>
-                      0 to 1
+                      Rental Flow
                     </span>
                   </div>
                 </div>
                 <div className='mt-10 flex flex-wrap items-end justify-between gap-6 md:mt-12'>
                   <div className='flex flex-wrap gap-x-10 gap-y-6'>
                     <div>
-                      <p className='font-display text-lg font-bold text-fg md:text-xl'>Shipped</p>
+                      <p className='font-display text-lg font-bold text-fg md:text-xl'>Zero</p>
                       <p className='mt-1 max-w-[14ch] font-sans text-xs leading-snug text-fg-muted'>
-                        Launched
+                        Assumptions about users
                       </p>
                     </div>
                     <div>
                       <p className='font-display text-lg font-bold text-fg md:text-xl'>
-                        First version
+                        First Try
                       </p>
                       <p className='mt-1 max-w-[14ch] font-sans text-xs leading-snug text-fg-muted'>
-                        Scope
+                        Task completion rate
                       </p>
                     </div>
                   </div>
@@ -803,7 +552,7 @@ const SelectedWork = () => {
                     color: 'transparent',
                   }}
                   sizes='(max-width: 1024px) 100vw, 50vw'
-                  src='/SelectedWork1.webp'
+                  src='/BatteryDriver_Cover.png'
                 />
                 <Link
                   href='https://www.meezopay.com'

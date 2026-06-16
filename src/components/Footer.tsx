@@ -37,7 +37,7 @@ const Footer = () => {
           </h2>
           <p className='mx-auto mt-6  text-center font-sans text-base leading-relaxed text-fg-secondary md:mt-8 md:text-lg'>
             <span className='blur-word inline-block'>
-              Open to product roles, freelance projects and consultations - I love talking in
+              Open to product design roles, freelance projects and consultations - I love talking in
               general
             </span>
           </p>
@@ -59,10 +59,10 @@ const Footer = () => {
                   Email
                 </span>
                 <Link
-                  href='mailto:nischalkanishk@gmail.com'
+                  href='mailto:jateenmohanty2003@gmail.com'
                   className='font-display text-xl font-extrabold tracking-tight transition-colors duration-2 ease-out hover:opacity-80 md:text-2xl text-accent'
                 >
-                  nischalkanishk@gmail.com
+                  jateenmohanty2003@gmail.com
                 </Link>
               </div>
               <div className='flex flex-col gap-2'>
@@ -70,10 +70,10 @@ const Footer = () => {
                   Phone
                 </span>
                 <Link
-                  href='tel:+917411741855'
+                  href='tel:+918280751406'
                   className='font-display text-xl font-extrabold tracking-tight transition-colors duration-2 ease-out hover:opacity-80 md:text-2xl text-fg'
                 >
-                  +91 74117 41855
+                  +91 8280 751406
                 </Link>
               </div>
               <nav
@@ -81,7 +81,7 @@ const Footer = () => {
                 aria-label='Social links'
               >
                 <Link
-                  href='https://www.linkedin.com/in/nischalkanishk/'
+                  href='https://www.linkedin.com/in/jateenmohanty/'
                   target='_blank'
                   rel='noopener noreferrer'
                   className='group inline-flex items-center gap-2 font-sans text-xs font-semibold uppercase tracking-[0.16em] text-fg transition-colors duration-2 ease-out hover:text-accent md:text-sm'
@@ -95,7 +95,7 @@ const Footer = () => {
                   </span>
                 </Link>
                 <Link
-                  href='https://www.instagram.com/escobar_kanishk/'
+                  href='https://www.instagram.com/jateen.ux/'
                   target='_blank'
                   rel='noopener noreferrer'
                   className='group inline-flex items-center gap-2 font-sans text-xs font-semibold uppercase tracking-[0.16em] text-fg transition-colors duration-2 ease-out hover:text-accent md:text-sm'
@@ -109,7 +109,7 @@ const Footer = () => {
                   </span>
                 </Link>
                 <Link
-                  href='https://behance.net/nischalkanishk69'
+                  href='https://www.behance.net/jateenmohanty'
                   target='_blank'
                   rel='noopener noreferrer'
                   className='group inline-flex items-center gap-2 font-sans text-xs font-semibold uppercase tracking-[0.16em] text-fg transition-colors duration-2 ease-out hover:text-accent md:text-sm'
@@ -142,7 +142,7 @@ const Footer = () => {
                     Hire me
                   </h3>
                   <p className='mt-2 max-w-[22ch] font-sans text-xs leading-relaxed text-fg-secondary md:text-sm'>
-                    Open for full-time PM roles
+                    Open for full-time Design roles
                   </p>
                 </div>
                 <div className='mt-5 md:mt-6'>
@@ -182,9 +182,9 @@ const Footer = () => {
             opacity: 1,
           }}
         >
-          <p className='font-sans text-xs text-fg-secondary'>© 2026 Nischal Kanishk</p>
+          <p className='font-sans text-xs text-fg-secondary'>© 2026 Jateen Mohanty</p>
           <p className='font-sans text-xs text-fg-secondary md:text-right'>
-            Built with ❤️ · Designed by Nischal Kanishk
+            Built with ❤️ · Designed by Jateen Mohanty
           </p>
         </div>
       </div>

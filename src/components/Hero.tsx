@@ -2,7 +2,7 @@ import React from 'react';
 
 const Hero = () => {
   return (
-    <section className='relative h-[calc(100dvh-4rem)] min-h-0 w-full max-w-full overflow-x-clip bg-bg px-6 pb-4 pt-16 md:px-10'>
+    <section className='relative h-[calc(100dvh-4rem)] min-h-0 w-full max-w-full overflow-x-clip bg-bg px-6 pb-4 pt-16 md:px-10 mb-3'>
       <div className='flex h-full w-full min-w-0 max-w-full flex-col justify-between'>
         <div className='min-w-0 max-w-full'>
           <p className='mb-2 min-w-0 max-w-full font-sans text-sm font-medium uppercase tracking-widest text-fg-muted md:text-base'>
@@ -161,283 +161,8 @@ const Hero = () => {
           <p className='min-w-0 max-w-full font-sans text-base leading-relaxed text-fg-secondary md:max-w-subtext md:text-lg'>
             <span
               className='blur-word inline-block'
-              style={{
-                marginRight: '0.28em',
-                translate: 'none',
-                rotate: 'none',
-                scale: 'none',
-                transform: 'translate(0px, 0px)',
-                filter: 'blur(0px)',
-                opacity: 1,
-              }}
             >
-              PM
-            </span>
-            <span
-              className='blur-word inline-block'
-              style={{
-                marginRight: '0.28em',
-                translate: 'none',
-                rotate: 'none',
-                scale: 'none',
-                transform: 'translate(0px, 0px)',
-                filter: 'blur(0px)',
-                opacity: 1,
-              }}
-            >
-              +
-            </span>
-            <span
-              className='blur-word inline-block'
-              style={{
-                marginRight: '0.28em',
-                translate: 'none',
-                rotate: 'none',
-                scale: 'none',
-                transform: 'translate(0px, 0px)',
-                filter: 'blur(0px)',
-                opacity: 1,
-              }}
-            >
-              Designer
-            </span>
-            <span
-              className='blur-word inline-block'
-              style={{
-                marginRight: '0.28em',
-                translate: 'none',
-                rotate: 'none',
-                scale: 'none',
-                transform: 'translate(0px, 0px)',
-                filter: 'blur(0px)',
-                opacity: 1,
-              }}
-            >
-              +
-            </span>
-            <span
-              className='blur-word inline-block'
-              style={{
-                marginRight: '0.28em',
-                translate: 'none',
-                rotate: 'none',
-                scale: 'none',
-                transform: 'translate(0px, 0px)',
-                filter: 'blur(0px)',
-                opacity: 1,
-              }}
-            >
-              AI
-            </span>
-            <span
-              className='blur-word inline-block'
-              style={{
-                marginRight: '0.28em',
-                translate: 'none',
-                rotate: 'none',
-                scale: 'none',
-                transform: 'translate(0px, 0px)',
-                filter: 'blur(0px)',
-                opacity: 1,
-              }}
-            >
-              builder.
-            </span>
-            <span
-              className='blur-word inline-block'
-              style={{
-                marginRight: '0.28em',
-                translate: 'none',
-                rotate: 'none',
-                scale: 'none',
-                transform: 'translate(0px, 0px)',
-                filter: 'blur(0px)',
-                opacity: 1,
-              }}
-            >
-              I
-            </span>
-            <span
-              className='blur-word inline-block'
-              style={{
-                marginRight: '0.28em',
-                translate: 'none',
-                rotate: 'none',
-                scale: 'none',
-                transform: 'translate(0px, 0px)',
-                filter: 'blur(0px)',
-                opacity: 1,
-              }}
-            >
-              turn
-            </span>
-            <span
-              className='blur-word inline-block'
-              style={{
-                marginRight: '0.28em',
-                translate: 'none',
-                rotate: 'none',
-                scale: 'none',
-                transform: 'translate(0px, 0px)',
-                filter: 'blur(0px)',
-                opacity: 1,
-              }}
-            >
-              messy
-            </span>
-            <span
-              className='blur-word inline-block'
-              style={{
-                marginRight: '0.28em',
-                translate: 'none',
-                rotate: 'none',
-                scale: 'none',
-                transform: 'translate(0px, 0px)',
-                filter: 'blur(0px)',
-                opacity: 1,
-              }}
-            >
-              ideas
-            </span>
-            <span
-              className='blur-word inline-block'
-              style={{
-                marginRight: '0.28em',
-                translate: 'none',
-                rotate: 'none',
-                scale: 'none',
-                transform: 'translate(0px, 0px)',
-                filter: 'blur(0px)',
-                opacity: 1,
-              }}
-            >
-              into
-            </span>
-            <span
-              className='blur-word inline-block'
-              style={{
-                marginRight: '0.28em',
-                translate: 'none',
-                rotate: 'none',
-                scale: 'none',
-                transform: 'translate(0px, 0px)',
-                filter: 'blur(0px)',
-                opacity: 1,
-              }}
-            >
-              things
-            </span>
-            <span
-              className='blur-word inline-block'
-              style={{
-                marginRight: '0.28em',
-                translate: 'none',
-                rotate: 'none',
-                scale: 'none',
-                transform: 'translate(0px, 0px)',
-                filter: 'blur(0px)',
-                opacity: 1,
-              }}
-            >
-              people
-            </span>
-            <span
-              className='blur-word inline-block'
-              style={{
-                marginRight: '0.28em',
-                translate: 'none',
-                rotate: 'none',
-                scale: 'none',
-                transform: 'translate(0px, 0px)',
-                filter: 'blur(0px)',
-                opacity: 1,
-              }}
-            >
-              actually
-            </span>
-            <span
-              className='blur-word inline-block'
-              style={{
-                marginRight: '0.28em',
-                translate: 'none',
-                rotate: 'none',
-                scale: 'none',
-                transform: 'translate(0px, 0px)',
-                filter: 'blur(0px)',
-                opacity: 1,
-              }}
-            >
-              use
-            </span>
-            <span
-              className='blur-word inline-block'
-              style={{
-                marginRight: '0.28em',
-                translate: 'none',
-                rotate: 'none',
-                scale: 'none',
-                transform: 'translate(0px, 0px)',
-                filter: 'blur(0px)',
-                opacity: 1,
-              }}
-            >
-              —
-            </span>
-            <span
-              className='blur-word inline-block'
-              style={{
-                marginRight: '0.28em',
-                translate: 'none',
-                rotate: 'none',
-                scale: 'none',
-                transform: 'translate(0px, 0px)',
-                filter: 'blur(0px)',
-                opacity: 1,
-              }}
-            >
-              from
-            </span>
-            <span
-              className='blur-word inline-block'
-              style={{
-                marginRight: '0.28em',
-                translate: 'none',
-                rotate: 'none',
-                scale: 'none',
-                transform: 'translate(0px, 0px)',
-                filter: 'blur(0px)',
-                opacity: 1,
-              }}
-            >
-              zero
-            </span>
-            <span
-              className='blur-word inline-block'
-              style={{
-                marginRight: '0.28em',
-                translate: 'none',
-                rotate: 'none',
-                scale: 'none',
-                transform: 'translate(0px, 0px)',
-                filter: 'blur(0px)',
-                opacity: 1,
-              }}
-            >
-              to
-            </span>
-            <span
-              className='blur-word inline-block'
-              style={{
-                marginRight: '0.28em',
-                translate: 'none',
-                rotate: 'none',
-                scale: 'none',
-                transform: 'translate(0px, 0px)',
-                filter: 'blur(0px)',
-                opacity: 1,
-              }}
-            >
-              shipped.
+              Designer + AI builder. I turn messy ideas into things people actually use — from zero to shipped.
             </span>
           </p>
           <div className='flex min-w-0 max-w-full shrink-0 flex-col items-start gap-2 md:items-end'>
@@ -462,30 +187,16 @@ const Hero = () => {
             <span
               data-hero-pill='true'
               className='inline-flex max-w-full whitespace-nowrap rounded-full border border-border-strong px-4 py-1.5 font-sans text-xs font-medium uppercase tracking-widest text-fg max-md:tracking-wide'
-              style={{
-                translate: 'none',
-                rotate: 'none',
-                scale: 'none',
-                filter: 'blur(0px)',
-                transform: 'translate(0px, 0px)',
-                opacity: 1,
-              }}
+
             >
-              Bangalore, India
+              Bengaluru, India
             </span>
             <span
               data-hero-pill='true'
               className='inline-flex max-w-full whitespace-nowrap rounded-full border border-border-strong px-4 py-1.5 font-sans text-xs font-medium uppercase tracking-widest text-fg max-md:tracking-wide'
-              style={{
-                translate: 'none',
-                rotate: 'none',
-                scale: 'none',
-                filter: 'blur(0px)',
-                transform: 'translate(0px, 0px)',
-                opacity: 1,
-              }}
+
             >
-              Founder @ One Moment
+              Founder @ TWIN DESIGN STUDIO
             </span>
           </div>
         </div>

@@ -39,7 +39,7 @@ const PortfolioSection = () => {
               </Link>
               <Link
                 className=' whitespace-nowrap font-sans text-sm font-medium underline-offset-4 transition-colors duration-2 ease-out hover:underline text-fg-secondary hover:text-fg'
-                href='/photography'
+                href='/#experience'
               >
                 Experience
               </Link>

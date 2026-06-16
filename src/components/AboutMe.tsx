@@ -5,9 +5,9 @@ export const AboutMe = () => {
   return (
     <section
       aria-label='Introduction'
-      className='relative flex min-h-[100dvh] flex-col items-center justify-center border-t border-border bg-bg pb-12 pt-36 md:pb-16 md:pt-44'
+      className='relative flex min-h-[100dvh] flex-col items-center justify-center border-t border-border bg-bg pb-12 pt-12 md:pb-16 md:pt-16'
     >
-      <div className='relative z-10 mx-auto mb-20 w-full max-w-container px-6 text-center md:mb-28 md:px-10'>
+      <div className='relative z-10 mx-auto mb-10 w-full max-w-container px-6 text-center md:mb-12 md:px-2'>
         <div className='mb-8 flex justify-center font-display text-display-md md:mb-10'>
           <Image
             alt=''
@@ -25,37 +25,11 @@ export const AboutMe = () => {
         <p className='font-display text-display-md font-extrabold uppercase tracking-[0.02em]'>
           <span
             className='intro-word inline-block text-fg'
-            // style={{ marginRight: '0.28em', opacity: '0.12' }}
           >
-            FOR
-          </span>
-          <span
-            className='intro-word inline-block text-fg'
-            // style={{ marginRight: '0.28em', opacity: '0.12' }}
-          >
-            THE
-          </span>
-          <span
-            className='intro-word inline-block text-fg'
-            // style={{ marginRight: '0.28em', opacity: '0.12' }}
-          >
-            PAST
-          </span>
-          <span
-            className='intro-word inline-block text-fg'
-            // style={{ marginRight: '0.28em', opacity: '0.12' }}
-          >
-            4
-          </span>
-          <span
-            className='intro-word inline-block text-fg'
-            // style={{ marginRight: '0.28em', opacity: '0.12' }}
-          >
-            YEARS,
+            For the past 2+ years &nbsp;
           </span>
           <span
             className='intro-word inline-flex h-[1em] w-[1em] items-center align-middle'
-            // style={{ marginRight: '0.28em', opacity: '0.12' }}
           >
             <Image
               alt=''
@@ -72,129 +46,8 @@ export const AboutMe = () => {
           </span>
           <span
             className='intro-word inline-block text-fg'
-            // style={{ marginRight: '0.28em', opacity: '0.12' }}
           >
-            I&apos;VE
-          </span>
-          <span
-            className='intro-word inline-block text-fg'
-            // style={{ marginRight: '0.28em', opacity: '0.12' }}
-          >
-            BEEN
-          </span>
-          <span
-            className='intro-word inline-block text-fg'
-            // style={{ marginRight: '0.28em', opacity: '0.12' }}
-          >
-            COMPLETELY,
-          </span>
-          <span
-            className='intro-word inline-block text-fg'
-            // style={{ marginRight: '0.28em', opacity: '0.12' }}
-          >
-            EMBARRASSINGLY
-          </span>
-          <span
-            className='intro-word inline-block text-fg'
-            // style={{ marginRight: '0.28em', opacity: '0.12' }}
-          >
-            OBSESSED
-          </span>
-          <span
-            className='intro-word inline-block text-fg'
-            // style={{ marginRight: '0.28em', opacity: '0.12' }}
-          >
-            WITH
-          </span>
-          <span
-            className='intro-word inline-block text-fg'
-            // style={{ marginRight: '0.28em', opacity: '0.12' }}
-          >
-            PRODUCT.
-          </span>
-          <span
-            className='intro-word inline-block text-fg'
-            // style={{ marginRight: '0.28em', opacity: '0.12' }}
-          >
-            I
-          </span>
-          <span
-            className='intro-word inline-block text-fg'
-            // style={{ marginRight: '0.28em', opacity: '0.12' }}
-          >
-            LOVE
-          </span>
-          <span
-            className='intro-word inline-block text-fg'
-            // style={{ marginRight: '0.28em', opacity: '0.12' }}
-          >
-            TAKING
-          </span>
-          <span
-            className='intro-word inline-block text-fg'
-            // style={{ marginRight: '0.28em', opacity: '0.12' }}
-          >
-            CHAOTIC
-          </span>
-          <span
-            className='intro-word inline-block text-fg'
-            // style={{ marginRight: '0.28em', opacity: '0.12' }}
-          >
-            IDEAS
-          </span>
-          <span
-            className='intro-word inline-block text-fg'
-            // style={{ marginRight: '0.28em', opacity: '0.12' }}
-          >
-            AND
-          </span>
-          <span
-            className='intro-word inline-block text-fg'
-            // style={{ marginRight: '0.28em', opacity: '0.12' }}
-          >
-            TURNING
-          </span>
-          <span
-            className='intro-word inline-block text-fg'
-            // style={{ marginRight: '0.28em', opacity: '0.12' }}
-          >
-            THEM
-          </span>
-          <span
-            className='intro-word inline-block text-fg'
-            // style={{ marginRight: '0.28em', opacity: '0.12' }}
-          >
-            INTO
-          </span>
-          <span
-            className='intro-word inline-block text-fg'
-            // style={{ marginRight: '0.28em', opacity: '0.12' }}
-          >
-            PRODUCTS
-          </span>
-          <span
-            className='intro-word inline-block text-fg'
-            // style={{ marginRight: '0.28em', opacity: '0.12' }}
-          >
-            THAT
-          </span>
-          <span
-            className='intro-word inline-block text-fg'
-            // style={{ marginRight: '0.28em', opacity: '0.12' }}
-          >
-            PEOPLE
-          </span>
-          <span
-            className='intro-word inline-block text-fg'
-            // style={{ marginRight: '0.28em', opacity: '0.12' }}
-          >
-            ACTUALLY
-          </span>
-          <span
-            className='intro-word inline-block text-fg'
-            // style={{ marginRight: '0.28em', opacity: '0.12' }}
-          >
-            USE.
+            I have been completely, embarrassingly obsessed with UX. I love taking founder visions and turning them into products that people actually use.
           </span>
         </p>
       </div>
