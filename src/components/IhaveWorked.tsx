@@ -27,7 +27,7 @@ const IhaveWorked = () => {
             data-nimg={1}
             className='h-10 w-10 md:h-12 md:w-12'
             style={{ color: 'transparent' }}
-            src='/Star.svg'
+            src='./Star.svg'
           />
         </div>
         <h2 className='w-full text-center font-display text-display-lg font-extrabold tracking-tight text-fg md:text-display-xl'>
@@ -369,7 +369,7 @@ const IhaveWorked = () => {
                     className='object-cover'
                     width={160}
                     height={160}
-                    src='/BueSuite_Logo.svg'
+                    src='./BueSuite_Logo.svg'
                   />
                 </div>
                 <div className='min-w-0 pt-0.5'>
@@ -466,7 +466,7 @@ const IhaveWorked = () => {
                     className='object-cover'
                     width={160}
                     height={160}
-                    src='/SafraLogo.svg'
+                    src='./SafraLogo.svg'
                   />
                 </div>
                 <div className='min-w-0 pt-0.5'>
@@ -559,7 +559,7 @@ const IhaveWorked = () => {
                     className='object-cover'
                     width={160}
                     height={160}
-                    src='/ZiarahLogo.svg'
+                    src='./ZiarahLogo.svg'
                   />
                 </div>
                 <div className='min-w-0 pt-0.5'>
@@ -646,7 +646,7 @@ const IhaveWorked = () => {
                     className='object-cover'
                     width={100}
                     height={100}
-                    src='/Twin_Design_Studio.svg'
+                    src='./Twin_Design_Studio.svg'
                   />
                 </div>
                 <div className='min-w-0 pt-0.5'>

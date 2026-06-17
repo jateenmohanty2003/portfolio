@@ -19,7 +19,7 @@ export const AboutMe = () => {
             data-nimg={1}
             className='h-[1em] w-[1em] shrink-0'
             style={{ color: 'transparent' }}
-            src='/Star 2.svg'
+            src='./Star 2.svg'
           />
         </div>
         <p className='font-display text-display-md font-extrabold uppercase tracking-[0.02em]'>
@@ -41,7 +41,7 @@ export const AboutMe = () => {
               data-nimg={1}
               className='h-full w-full shrink-0'
               style={{ color: 'transparent' }}
-              src='/DualShape.svg'
+              src='./DualShape.svg'
             />
           </span>
           <span
@@ -69,7 +69,7 @@ export const AboutMe = () => {
                   data-nimg={1}
                   className='h-[1em] w-[1em] shrink-0 brightness-0 invert'
                   style={{ color: 'transparent' }}
-                  src='/Star.svg'
+                  src='./Star.svg'
                 />
               </div>
               <div className='flex shrink-0 items-center gap-8 pr-8 font-display text-marquee md:gap-10 md:pr-10'>
@@ -86,7 +86,7 @@ export const AboutMe = () => {
                   data-nimg={1}
                   className='h-[1em] w-[1em] shrink-0 brightness-0 invert'
                   style={{ color: 'transparent' }}
-                  src='/Star.svg'
+                  src='./Star.svg'
                 />
               </div>
               <div className='flex shrink-0 items-center gap-8 pr-8 font-display text-marquee md:gap-10 md:pr-10'>
@@ -103,7 +103,7 @@ export const AboutMe = () => {
                   data-nimg={1}
                   className='h-[1em] w-[1em] shrink-0 brightness-0 invert'
                   style={{ color: 'transparent' }}
-                  src='/Star.svg'
+                  src='./Star.svg'
                 />
               </div>
             </div>
@@ -122,7 +122,7 @@ export const AboutMe = () => {
                   data-nimg={1}
                   className='h-[1em] w-[1em] shrink-0 brightness-0 invert'
                   style={{ color: 'transparent' }}
-                  src='/Star.svg'
+                  src='./Star.svg'
                 />
               </div>
               <div className='flex shrink-0 items-center gap-8 pr-8 font-display text-marquee md:gap-10 md:pr-10'>
@@ -139,7 +139,7 @@ export const AboutMe = () => {
                   data-nimg={1}
                   className='h-[1em] w-[1em] shrink-0 brightness-0 invert'
                   style={{ color: 'transparent' }}
-                  src='/Star.svg'
+                  src='./Star.svg'
                 />
               </div>
               <div className='flex shrink-0 items-center gap-8 pr-8 font-display text-marquee md:gap-10 md:pr-10'>
@@ -156,7 +156,7 @@ export const AboutMe = () => {
                   data-nimg={1}
                   className='h-[1em] w-[1em] shrink-0 brightness-0 invert'
                   style={{ color: 'transparent' }}
-                  src='/Star.svg'
+                  src='./Star.svg'
                 />
               </div>
             </div>

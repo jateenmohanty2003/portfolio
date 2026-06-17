@@ -29,7 +29,7 @@ const Footer = () => {
               data-nimg={1}
               className='h-10 w-10 md:h-12 md:w-12'
               style={{ color: 'transparent' }}
-              src='/Star 2.svg'
+              src='./Star 2.svg'
             />
           </div>
           <h2 className='text-center font-display text-display-lg font-extrabold tracking-tight text-fg md:text-display-xl'>
@@ -210,7 +210,7 @@ const Footer = () => {
           className='h-auto w-full select-none'
           style={{ color: 'transparent' }}
           sizes='100vw'
-          src='/jateen_footer.svg'
+          src='./jateen_footer.svg'
         />
       </div>
     </footer>

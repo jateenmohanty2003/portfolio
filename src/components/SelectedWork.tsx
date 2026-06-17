@@ -19,7 +19,7 @@ const SelectedWork = () => {
             data-nimg={1}
             className='h-10 w-10 md:h-12 md:w-12'
             style={{ color: 'transparent' }}
-            src='/Star 2.svg'
+            src='./Star 2.svg'
           />
         </div>
         <h2 className='w-full text-center font-display text-display-lg font-extrabold tracking-tight text-fg md:text-display-xl'>
@@ -286,7 +286,7 @@ const SelectedWork = () => {
                     color: 'transparent',
                   }}
                   sizes='(max-width: 1024px) 100vw, 50vw'
-                  src='/Ziarah_Cover1.png'
+                  src='./Ziarah_Cover1.png'
                 />
                 <Link
                   href='https://onemomenthq.com'
@@ -425,7 +425,7 @@ const SelectedWork = () => {
                     color: 'transparent',
                   }}
                   sizes='(max-width: 1024px) 100vw, 50vw'
-                  src='/Bue Suite_Cover.png'
+                  src='./Bue Suite_Cover.png'
                 />
                 <Link
                   href='https://auxy.ai'
@@ -552,7 +552,7 @@ const SelectedWork = () => {
                     color: 'transparent',
                   }}
                   sizes='(max-width: 1024px) 100vw, 50vw'
-                  src='/BatteryDriver_Cover.png'
+                  src='./BatteryDriver_Cover.png'
                 />
                 <Link
                   href='https://www.meezopay.com'

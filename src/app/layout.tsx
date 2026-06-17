@@ -29,7 +29,7 @@ export default function RootLayout({
                 aria-label='Jateen Moahanty — home'
               >
                 <Image
-                  src='/jateen_logo.svg'
+                  src='./jateen_logo.svg'
                   alt='Jateen Mohanty'
                   className='h-8 w-auto transition-opacity duration-3 ease-out opacity-100 '
                   width={157}
