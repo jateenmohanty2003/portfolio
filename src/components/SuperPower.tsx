@@ -51,10 +51,13 @@ const SuperPower = () => {
         >
           <h2 className='flex w-full min-w-0 max-w-full flex-col items-center gap-2.5 overflow-x-clip text-center font-display text-[clamp(2.125rem,9vw,3.125rem)] font-extrabold uppercase leading-[0.9] tracking-tight text-fg sm:text-[clamp(2.375rem,9.5vw,3.375rem)] md:gap-4 md:text-display-lg lg:text-display-xl'>
             <span className='flex min-w-0 max-w-full flex-wrap items-center justify-center gap-y-1 max-md:px-1'>
-              <span className='inline'>I'm a creative</span>
+              <span className='inline'>I think in</span>
+            </span>
+            <span className='flex min-w-0 max-w-full flex-wrap items-center justify-center gap-y-1 max-md:px-1'>
+              <span className='inline'>systems</span>
             </span>
             <span className='flex min-w-0 max-w-full flex-wrap items-center justify-center gap-y-1 max-md:px-1 md:inline-flex md:w-auto md:flex-nowrap md:whitespace-nowrap'>
-              design powerhouse
+              not just screens
             </span>
           </h2>
         </div>
@@ -225,8 +228,8 @@ const SuperPower = () => {
                 strokeLinejoin='round'
                 aria-hidden='true'
               >
-                <path d='m3 11 18-5v12L3 14v-3Z' />
-                <path d='M11.6 16.8a3 3 0 1 1-5.8-1.6' />
+                <path d='M12 20h9' />
+                <path d='M16.5 3.5a2.12 2.12 0 0 1 3 3L7 19l-4 1 1-4Z' />
               </svg>
             </div>
             <h3 className='font-display text-display-md font-extrabold uppercase tracking-tight text-fg'>
@@ -286,8 +289,8 @@ const SuperPower = () => {
                 strokeLinejoin='round'
                 aria-hidden='true'
               >
-                <path d='M12 20h9' />
-                <path d='M16.5 3.5a2.12 2.12 0 0 1 3 3L7 19l-4 1 1-4Z' />
+                <path d='m3 11 18-5v12L3 14v-3Z' />
+                <path d='M11.6 16.8a3 3 0 1 1-5.8-1.6' />
               </svg>
             </div>
             <h3 className='font-display text-display-md font-extrabold uppercase tracking-tight text-fg'>
@@ -327,7 +330,7 @@ const SuperPower = () => {
           </div>
         </article>
         <div data-reveal-item='true' className='flex justify-center pt-8 md:pt-12'>
-          <AnimatedButton href='/work'>Work with me →</AnimatedButton>
+          <AnimatedButton href='/#work_with_me'>Work with me →</AnimatedButton>
         </div>
       </div>
     </section>

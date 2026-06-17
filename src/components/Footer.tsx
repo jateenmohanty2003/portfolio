@@ -6,7 +6,7 @@ import GooeyButton from './ui/GooeyButton';
 const Footer = () => {
   return (
     <footer className='overflow-hidden bg-bg'>
-      <section id='contact' className='border-t border-border bg-bg px-6 py-24 md:px-10 md:py-32'>
+      <section id='work_with_me' className='border-t border-border bg-bg px-6 py-24 md:px-10 md:py-32'>
         <div className='mx-auto max-w-container'>
           <div
             className='mb-10 flex justify-center md:mb-12'
@@ -60,7 +60,7 @@ const Footer = () => {
                 </span>
                 <Link
                   href='mailto:jateenmohanty2003@gmail.com'
-                  className='font-display text-xl font-extrabold tracking-tight transition-colors duration-2 ease-out hover:opacity-80 md:text-2xl text-accent'
+                  className='font-display text-sm font-extrabold tracking-tight transition-colors duration-2 ease-out hover:opacity-80 md:text-2xl text-accent'
                 >
                   jateenmohanty2003@gmail.com
                 </Link>
@@ -73,7 +73,7 @@ const Footer = () => {
                   href='tel:+918280751406'
                   className='font-display text-xl font-extrabold tracking-tight transition-colors duration-2 ease-out hover:opacity-80 md:text-2xl text-fg'
                 >
-                  +91 8280 751406
+                  +91 82807 51406
                 </Link>
               </div>
               <nav
@@ -147,7 +147,7 @@ const Footer = () => {
                 </div>
                 <div className='mt-5 md:mt-6'>
                   <div className='mt-5 md:mt-6'>
-                    <GooeyButton className='w-full'>Download Resume</GooeyButton>
+                    <GooeyButton href='https://drive.google.com/file/d/1wfY-2RaaNHseWgb7RFTlfJirr_Vn0jzW/view?usp=drive_link' className='w-full'>Download Resume</GooeyButton>
                   </div>
                 </div>
               </div>
@@ -161,7 +161,7 @@ const Footer = () => {
                   </p>
                 </div>
                 <div className='mt-5 md:mt-6'>
-                  <GooeyButton className='w-full' variant='orange'>
+                  <GooeyButton href="http://topmate.io/jateen_mohanty/" className='w-full' variant='orange'>
                     Book 30 min call
                   </GooeyButton>
                 </div>

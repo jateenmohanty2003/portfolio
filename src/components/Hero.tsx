@@ -153,6 +153,7 @@ const Hero = () => {
                   scratch
                 </span>
               </span>
+              {/* <div className='h-4 w-4 bg-accent rounded-full animate-bounce '></div> */}
               <span className='text-accent'>.</span>
             </span>
           </h1>

@@ -272,7 +272,7 @@ const SelectedWork = () => {
                   loading='lazy'
                   decoding='async'
                   data-nimg='fill'
-                  className='object-cover'
+                  className='object-center'
                   width={100}
                   height={100}
                   style={{
@@ -407,11 +407,11 @@ const SelectedWork = () => {
               </div>
               <div className='relative min-h-[280px] h-full w-full overflow-hidden lg:min-h-[480px]'>
                 <Image
-                  alt='Auxy.ai project preview'
+                  alt='Meezo project preview'
                   loading='lazy'
                   decoding='async'
                   data-nimg='fill'
-                  className='object-cover object-center'
+                  className='object-center'
                   width={100}
                   height={100}
                   style={{
@@ -538,7 +538,7 @@ const SelectedWork = () => {
                   loading='lazy'
                   decoding='async'
                   data-nimg='fill'
-                  className='object-cover object-center'
+                  className='object-center'
                   width={100}
                   height={100}
                   style={{

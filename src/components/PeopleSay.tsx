@@ -107,21 +107,16 @@ const PeopleSay = () => {
           <div className='flex w-max animate-testimonials-scroll gap-6 md:gap-8'>
             <article className='flex w-[min(90vw,440px)] shrink-0 flex-col justify-between rounded-lg border border-border/10 bg-paper-50 p-8 shadow-sm md:w-[520px] md:p-10'>
               <p className='font-sans text-base leading-relaxed text-fg md:text-lg'>
-                “{/* */}Nischal is one of the most efficient people I have worked with. He is great
-                at context switching. On any given day he could go from a deep product strategy
-                discussion to reviewing a design to debugging a user flow and not miss a beat on any
-                of them. He never let things fall through the cracks. If you need someone who can
-                hold multiple things in their head and still deliver on all of them, Nischal is that
-                person.{/* */}”
+                “{/* */}I came to Jateen with Gatherly, a social and event platform I was building on the side, and honestly just a bunch of half formed ideas in my head. As an engineer I think in logic, not layouts, so I needed someone who could see what I could not. Jateen got it almost instantly. He turned my scattered thoughts into a flow that felt warm and easy for both hosts and people showing up to events. Every time we spoke I walked away clearer and a little more excited about what we were building. It just felt right.{/* */}”
               </p>
               <div className='mt-8 flex items-center gap-4'>
                 <div className='relative flex h-14 w-14 shrink-0 items-center justify-center overflow-hidden rounded-full border border-border bg-bg-secondary'>
-                  <span className='font-display text-sm font-bold text-fg'>RJ</span>
+                  <span className='font-display text-sm font-bold text-fg'>HK</span>
                 </div>
                 <div>
-                  <p className='font-display text-base font-bold text-fg'>Rishang Jain</p>
+                  <p className='font-display text-base font-bold text-fg'>Hishore Kumar</p>
                   <p className='mt-0.5 font-sans text-sm text-fg-secondary'>
-                    CEO, Dental Stack
+                    Software Engineer, Victoria's Secret & Co.
                   </p>
                 </div>
               </div>
@@ -133,7 +128,7 @@ const PeopleSay = () => {
               </p>
               <div className='mt-8 flex items-center gap-4'>
                 <div className='relative flex h-14 w-14 shrink-0 items-center justify-center overflow-hidden rounded-full border border-border bg-bg-secondary'>
-                  <span className='font-display text-sm font-bold text-fg'>G</span>
+                  <span className='font-display text-sm font-bold text-fg'>CC</span>
                 </div>
                 <div>
                   <p className='font-display text-base font-bold text-fg'>Chetna Chouhan</p>
@@ -149,7 +144,7 @@ const PeopleSay = () => {
               </p>
               <div className='mt-8 flex items-center gap-4'>
                 <div className='relative flex h-14 w-14 shrink-0 items-center justify-center overflow-hidden rounded-full border border-border bg-bg-secondary'>
-                  <span className='font-display text-sm font-bold text-fg'>SM</span>
+                  <span className='font-display text-sm font-bold text-fg'>NA</span>
                 </div>
                 <div>
                   <p className='font-display text-base font-bold text-fg'>Naushad Ahmad</p>
@@ -165,12 +160,12 @@ const PeopleSay = () => {
               </p>
               <div className='mt-8 flex items-center gap-4'>
                 <div className='relative flex h-14 w-14 shrink-0 items-center justify-center overflow-hidden rounded-full border border-border bg-bg-secondary'>
-                  <span className='font-display text-sm font-bold text-fg'>SM</span>
+                  <span className='font-display text-sm font-bold text-fg'>SV</span>
                 </div>
                 <div>
                   <p className='font-display text-base font-bold text-fg'>Santhosh Ku Vijayarangan</p>
                   <p className='mt-0.5 font-sans text-sm text-fg-secondary'>
-                    Co-Founder, Ziarh.ai
+                    Co-Founder, Ziarah.ai
                   </p>
                 </div>
               </div>
@@ -181,7 +176,7 @@ const PeopleSay = () => {
               </p>
               <div className='mt-8 flex items-center gap-4'>
                 <div className='relative flex h-14 w-14 shrink-0 items-center justify-center overflow-hidden rounded-full border border-border bg-bg-secondary'>
-                  <span className='font-display text-sm font-bold text-fg'>PG</span>
+                  <span className='font-display text-sm font-bold text-fg'>AM</span>
                 </div>
                 <div>
                   <p className='font-display text-base font-bold text-fg'>Arjun Mehta</p>
@@ -197,7 +192,7 @@ const PeopleSay = () => {
               </p>
               <div className='mt-8 flex items-center gap-4'>
                 <div className='relative flex h-14 w-14 shrink-0 items-center justify-center overflow-hidden rounded-full border border-border bg-bg-secondary'>
-                  <span className='font-display text-sm font-bold text-fg'>PG</span>
+                  <span className='font-display text-sm font-bold text-fg'>PN</span>
                 </div>
                 <div>
                   <p className='font-display text-base font-bold text-fg'>Priya Nair</p>

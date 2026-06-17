@@ -47,7 +47,7 @@ export const AboutMe = () => {
           <span
             className='intro-word inline-block text-fg'
           >
-            I have been completely, embarrassingly obsessed with UX. I love taking founder visions and turning them into products that people actually use.
+            I have been completely, embarrassingly obsessed with UX. I love taking founder visions and turning them into products that people <span className='text-accent animate-pulse'>actually use</span>
           </span>
         </p>
       </div>
@@ -57,7 +57,7 @@ export const AboutMe = () => {
             <div className='flex shrink-0'>
               <div className='flex shrink-0 items-center gap-8 pr-8 font-display text-marquee md:gap-10 md:pr-10'>
                 <span className='whitespace-nowrap font-extrabold uppercase tracking-[0.02em] text-fg-inverse'>
-                  I MAKE COOL STUFF
+                  I design things that convert
                 </span>
                 <Image
                   alt=''
@@ -74,7 +74,7 @@ export const AboutMe = () => {
               </div>
               <div className='flex shrink-0 items-center gap-8 pr-8 font-display text-marquee md:gap-10 md:pr-10'>
                 <span className='whitespace-nowrap font-extrabold uppercase tracking-[0.02em] text-fg-inverse'>
-                  I MAKE COOL STUFF
+                 I design things that convert
                 </span>
                 <Image
                   alt=''
@@ -91,7 +91,7 @@ export const AboutMe = () => {
               </div>
               <div className='flex shrink-0 items-center gap-8 pr-8 font-display text-marquee md:gap-10 md:pr-10'>
                 <span className='whitespace-nowrap font-extrabold uppercase tracking-[0.02em] text-fg-inverse'>
-                  I MAKE COOL STUFF
+                  I design things that convert
                 </span>
                 <Image
                   alt=''
@@ -110,7 +110,7 @@ export const AboutMe = () => {
             <div className='flex shrink-0'>
               <div className='flex shrink-0 items-center gap-8 pr-8 font-display text-marquee md:gap-10 md:pr-10'>
                 <span className='whitespace-nowrap font-extrabold uppercase tracking-[0.02em] text-fg-inverse'>
-                  I MAKE COOL STUFF
+                  I design things that convert
                 </span>
                 <Image
                   alt=''
@@ -127,7 +127,7 @@ export const AboutMe = () => {
               </div>
               <div className='flex shrink-0 items-center gap-8 pr-8 font-display text-marquee md:gap-10 md:pr-10'>
                 <span className='whitespace-nowrap font-extrabold uppercase tracking-[0.02em] text-fg-inverse'>
-                  I MAKE COOL STUFF
+                 I design things that convert
                 </span>
                 <Image
                   alt=''
@@ -144,7 +144,7 @@ export const AboutMe = () => {
               </div>
               <div className='flex shrink-0 items-center gap-8 pr-8 font-display text-marquee md:gap-10 md:pr-10'>
                 <span className='whitespace-nowrap font-extrabold uppercase tracking-[0.02em] text-fg-inverse'>
-                  I MAKE COOL STUFF
+                  I design things that convert
                 </span>
                 <Image
                   alt=''

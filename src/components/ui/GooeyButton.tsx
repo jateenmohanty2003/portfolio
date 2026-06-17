@@ -21,7 +21,7 @@ const GooeyButton = ({
   return (
     <Link
       href={href}
-      download={download}
+      target='_blank'
       className={`
         group
         relative
@@ -37,6 +37,7 @@ const GooeyButton = ({
         font-semibold
         transition-colors
         duration-500
+        cursor-pointer
         ${isBlack ? 'bg-ink-900 text-paper-100' : 'bg-accent text-paper-100'}
         ${className}
       `}
