@@ -1,5 +1,5 @@
 import Reveal from "@/components/Reveal"
-import getImgUrl from "@/utils/imagePath"
+import Image from "next/image"
 
 const Work = () => {
     return (<Reveal><main>
@@ -17,7 +17,7 @@ const Work = () => {
                             opacity: 1
                         }}
                     >
-                        <img
+                        <Image
                             alt=""
                             aria-hidden="true"
                             loading="lazy"
@@ -26,7 +26,7 @@ const Work = () => {
                             decoding="async"
                             data-nimg={1}
                             className="h-10 w-10 md:h-12 md:w-12"
-                            src={getImgUrl('/Star.svg')}
+                            src='./Star.svg'
                             style={{ color: "transparent" }}
                         />
                     </div>
@@ -89,7 +89,7 @@ const Work = () => {
                                         <span className="whitespace-nowrap font-extrabold uppercase tracking-[0.02em] text-fg-inverse">
                                             Brewing something
                                         </span>
-                                        <img
+                                        <Image
                                             alt=""
                                             aria-hidden="true"
                                             loading="lazy"
@@ -98,13 +98,13 @@ const Work = () => {
                                             decoding="async"
                                             data-nimg={1}
                                             className="h-[1em] w-[1em] shrink-0 brightness-0 invert"
-                                            src={getImgUrl("/Star 2.svg")}
+                                            src="./Star 2.svg"
                                             style={{ color: "transparent" }}
                                         />
                                         <span className="whitespace-nowrap font-extrabold uppercase tracking-[0.02em] text-fg-inverse">
                                             Stay tuned
                                         </span>
-                                        <img
+                                        <Image
                                             alt=""
                                             aria-hidden="true"
                                             loading="lazy"
@@ -113,7 +113,7 @@ const Work = () => {
                                             decoding="async"
                                             data-nimg={1}
                                             className="h-[1em] w-[1em] shrink-0 brightness-0 invert"
-                                            src="/Star 2.svg"
+                                            src="./Star 2.svg"
                                             style={{ color: "transparent" }}
                                         />
                                     </div>
@@ -121,7 +121,7 @@ const Work = () => {
                                         <span className="whitespace-nowrap font-extrabold uppercase tracking-[0.02em] text-fg-inverse">
                                             Brewing something
                                         </span>
-                                        <img
+                                        <Image
                                             alt=""
                                             aria-hidden="true"
                                             loading="lazy"
@@ -130,13 +130,13 @@ const Work = () => {
                                             decoding="async"
                                             data-nimg={1}
                                             className="h-[1em] w-[1em] shrink-0 brightness-0 invert"
-                                            src="/Star 2.svg"
+                                            src="./Star 2.svg"
                                             style={{ color: "transparent" }}
                                         />
                                         <span className="whitespace-nowrap font-extrabold uppercase tracking-[0.02em] text-fg-inverse">
                                             Stay tuned
                                         </span>
-                                        <img
+                                        <Image
                                             alt=""
                                             aria-hidden="true"
                                             loading="lazy"
@@ -145,7 +145,7 @@ const Work = () => {
                                             decoding="async"
                                             data-nimg={1}
                                             className="h-[1em] w-[1em] shrink-0 brightness-0 invert"
-                                            src="/Star 2.svg"
+                                            src="./Star 2.svg"
                                             style={{ color: "transparent" }}
                                         />
                                     </div>
@@ -153,7 +153,7 @@ const Work = () => {
                                         <span className="whitespace-nowrap font-extrabold uppercase tracking-[0.02em] text-fg-inverse">
                                             Brewing something
                                         </span>
-                                        <img
+                                        <Image
                                             alt=""
                                             aria-hidden="true"
                                             loading="lazy"
@@ -162,13 +162,13 @@ const Work = () => {
                                             decoding="async"
                                             data-nimg={1}
                                             className="h-[1em] w-[1em] shrink-0 brightness-0 invert"
-                                            src="/Star 2.svg"
+                                            src="./Star 2.svg"
                                             style={{ color: "transparent" }}
                                         />
                                         <span className="whitespace-nowrap font-extrabold uppercase tracking-[0.02em] text-fg-inverse">
                                             Stay tuned
                                         </span>
-                                        <img
+                                        <Image
                                             alt=""
                                             aria-hidden="true"
                                             loading="lazy"
@@ -177,7 +177,7 @@ const Work = () => {
                                             decoding="async"
                                             data-nimg={1}
                                             className="h-[1em] w-[1em] shrink-0 brightness-0 invert"
-                                            src="/Star 2.svg"
+                                            src="./Star 2.svg"
                                             style={{ color: "transparent" }}
                                         />
                                     </div>
@@ -187,7 +187,7 @@ const Work = () => {
                                         <span className="whitespace-nowrap font-extrabold uppercase tracking-[0.02em] text-fg-inverse">
                                             Brewing something
                                         </span>
-                                        <img
+                                        <Image
                                             alt=""
                                             aria-hidden="true"
                                             loading="lazy"
@@ -196,13 +196,13 @@ const Work = () => {
                                             decoding="async"
                                             data-nimg={1}
                                             className="h-[1em] w-[1em] shrink-0 brightness-0 invert"
-                                            src="/Star 2.svg"
+                                            src="./Star 2.svg"
                                             style={{ color: "transparent" }}
                                         />
                                         <span className="whitespace-nowrap font-extrabold uppercase tracking-[0.02em] text-fg-inverse">
                                             Stay tuned
                                         </span>
-                                        <img
+                                        <Image
                                             alt=""
                                             aria-hidden="true"
                                             loading="lazy"
@@ -211,7 +211,7 @@ const Work = () => {
                                             decoding="async"
                                             data-nimg={1}
                                             className="h-[1em] w-[1em] shrink-0 brightness-0 invert"
-                                            src="/Star 2.svg"
+                                            src="./Star 2.svg"
                                             style={{ color: "transparent" }}
                                         />
                                     </div>
@@ -219,7 +219,7 @@ const Work = () => {
                                         <span className="whitespace-nowrap font-extrabold uppercase tracking-[0.02em] text-fg-inverse">
                                             Brewing something
                                         </span>
-                                        <img
+                                        <Image
                                             alt=""
                                             aria-hidden="true"
                                             loading="lazy"
@@ -228,13 +228,13 @@ const Work = () => {
                                             decoding="async"
                                             data-nimg={1}
                                             className="h-[1em] w-[1em] shrink-0 brightness-0 invert"
-                                            src="/Star 2.svg"
+                                            src="./Star 2.svg"
                                             style={{ color: "transparent" }}
                                         />
                                         <span className="whitespace-nowrap font-extrabold uppercase tracking-[0.02em] text-fg-inverse">
                                             Stay tuned
                                         </span>
-                                        <img
+                                        <Image
                                             alt=""
                                             aria-hidden="true"
                                             loading="lazy"
@@ -243,7 +243,7 @@ const Work = () => {
                                             decoding="async"
                                             data-nimg={1}
                                             className="h-[1em] w-[1em] shrink-0 brightness-0 invert"
-                                            src="/Star 2.svg"
+                                            src="./Star 2.svg"
                                             style={{ color: "transparent" }}
                                         />
                                     </div>
@@ -251,7 +251,7 @@ const Work = () => {
                                         <span className="whitespace-nowrap font-extrabold uppercase tracking-[0.02em] text-fg-inverse">
                                             Brewing something
                                         </span>
-                                        <img
+                                        <Image
                                             alt=""
                                             aria-hidden="true"
                                             loading="lazy"
@@ -260,13 +260,13 @@ const Work = () => {
                                             decoding="async"
                                             data-nimg={1}
                                             className="h-[1em] w-[1em] shrink-0 brightness-0 invert"
-                                            src="/Star 2.svg"
+                                            src="./Star 2.svg"
                                             style={{ color: "transparent" }}
                                         />
                                         <span className="whitespace-nowrap font-extrabold uppercase tracking-[0.02em] text-fg-inverse">
                                             Stay tuned
                                         </span>
-                                        <img
+                                        <Image
                                             alt=""
                                             aria-hidden="true"
                                             loading="lazy"
@@ -275,7 +275,7 @@ const Work = () => {
                                             decoding="async"
                                             data-nimg={1}
                                             className="h-[1em] w-[1em] shrink-0 brightness-0 invert"
-                                            src="/Star 2.svg"
+                                            src="./Star 2.svg"
                                             style={{ color: "transparent" }}
                                         />
                                     </div>
