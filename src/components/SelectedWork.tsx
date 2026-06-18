@@ -240,19 +240,19 @@ const SelectedWork = () => {
                 <div className='mt-10 flex flex-wrap items-end justify-between gap-6 md:mt-12'>
                   <div className='flex flex-wrap gap-x-10 gap-y-6'>
                     <div>
-                      <p className='font-display text-lg font-bold text-fg md:text-xl'>100+</p>
+                      <p className='font-display text-lg font-bold text-accent md:text-xl'>100+</p>
                       <p className='mt-1 max-w-[14ch] font-sans text-xs leading-snug text-fg-muted'>
                         Paid booking in first 30 days
                       </p>
                     </div>
                     <div>
-                      <p className='font-display text-lg font-bold text-fg md:text-xl'>300+</p>
+                      <p className='font-display text-lg font-bold text-accent md:text-xl'>300+</p>
                       <p className='mt-1 max-w-[14ch] font-sans text-xs leading-snug text-fg-muted'>
                         Itineraries built daily
                       </p>
                     </div>
                     <div>
-                      <p className='font-display text-lg font-bold text-fg md:text-xl'>+30%</p>
+                      <p className='font-display text-lg font-bold text-accent md:text-xl'>+30%</p>
                       <p className='mt-1 max-w-[14ch] font-sans text-xs leading-snug text-fg-muted'>
                         User retention
                       </p>
@@ -296,12 +296,12 @@ const SelectedWork = () => {
                   className='absolute bottom-6 right-6 flex h-12 w-12 items-center justify-center rounded-full bg-paper-100/15 backdrop-blur-sm transition-colors duration-2 ease-out hover:bg-paper-100/25'
                 >
                   <svg
-                    width={18}
-                    height={18}
+                    width={24}
+                    height={24}
                     viewBox='0 0 18 18'
                     fill='none'
                     aria-hidden='true'
-                    className='text-paper-100'
+                    className='text-black/70'
                   >
                     <path
                       d='M5.25 12.75L12.75 5.25M12.75 5.25H6.75M12.75 5.25V11.25'
@@ -377,19 +377,19 @@ const SelectedWork = () => {
                 <div className='mt-10 flex flex-wrap items-end justify-between gap-6 md:mt-12'>
                   <div className='flex flex-wrap gap-x-10 gap-y-6'>
                     <div>
-                      <p className='font-display text-lg font-bold text-fg md:text-xl'>100%</p>
+                      <p className='font-display text-lg font-bold text-accent md:text-xl'>100%</p>
                       <p className='mt-1 max-w-[14ch] font-sans text-xs leading-snug text-fg-muted'>
                         HR Workflow Coverage
                       </p>
                     </div>
                     <div>
-                      <p className='font-display text-lg font-bold text-fg md:text-xl'>Investor</p>
+                      <p className='font-display text-lg font-bold text-accent md:text-xl'>Investor</p>
                       <p className='mt-1 max-w-[14ch] font-sans text-xs leading-snug text-fg-muted'>
                         Backed And Validated
                       </p>
                     </div>
                     <div>
-                      <p className='font-display text-lg font-bold text-fg md:text-xl'>AI</p>
+                      <p className='font-display text-lg font-bold text-accent md:text-xl'>AI</p>
                       <p className='mt-1 max-w-[14ch] font-sans text-xs leading-snug text-fg-muted'>
                         Powered Candidate Scoring
                       </p>
@@ -433,12 +433,12 @@ const SelectedWork = () => {
                   className='absolute bottom-6 right-6 flex h-12 w-12 items-center justify-center rounded-full bg-paper-100/15 backdrop-blur-sm transition-colors duration-2 ease-out hover:bg-paper-100/25'
                 >
                   <svg
-                    width={18}
-                    height={18}
+                    width={24}
+                    height={24}
                     viewBox='0 0 18 18'
                     fill='none'
                     aria-hidden='true'
-                    className='text-paper-100'
+                    className='text-black/70'
                   >
                     <path
                       d='M5.25 12.75L12.75 5.25M12.75 5.25H6.75M12.75 5.25V11.25'
@@ -508,13 +508,13 @@ const SelectedWork = () => {
                 <div className='mt-10 flex flex-wrap items-end justify-between gap-6 md:mt-12'>
                   <div className='flex flex-wrap gap-x-10 gap-y-6'>
                     <div>
-                      <p className='font-display text-lg font-bold text-fg md:text-xl'>Users Designed For</p>
+                      <p className='font-display text-lg font-bold text-accent md:text-xl'>Users Designed For</p>
                       <p className='mt-1 max-w-[14ch] font-sans text-xs leading-snug text-fg-muted'>
                         Low Literacy
                       </p>
                     </div>
                     <div>
-                      <p className='font-display text-lg font-bold text-fg md:text-xl'>
+                      <p className='font-display text-lg font-bold text-accent md:text-xl'>
                         1st Try
                       </p>
                       <p className='mt-1 max-w-[14ch] font-sans text-xs leading-snug text-fg-muted'>
@@ -560,12 +560,12 @@ const SelectedWork = () => {
                   className='absolute bottom-6 right-6 flex h-12 w-12 items-center justify-center rounded-full bg-paper-100/15 backdrop-blur-sm transition-colors duration-2 ease-out hover:bg-paper-100/25'
                 >
                   <svg
-                    width={18}
-                    height={18}
+                    width={24}
+                    height={24}
                     viewBox='0 0 18 18'
                     fill='none'
                     aria-hidden='true'
-                    className='text-paper-100'
+                    className='text-black/70'
                   >
                     <path
                       d='M5.25 12.75L12.75 5.25M12.75 5.25H6.75M12.75 5.25V11.25'
@@ -635,13 +635,13 @@ const SelectedWork = () => {
                 <div className='mt-10 flex flex-wrap items-end justify-between gap-6 md:mt-12'>
                   <div className='flex flex-wrap gap-x-10 gap-y-6'>
                     <div>
-                      <p className='font-display text-lg font-bold text-fg md:text-xl'>2</p>
+                      <p className='font-display text-lg font-bold text-accent md:text-xl'>2</p>
                       <p className='mt-1 max-w-[14ch] font-sans text-xs leading-snug text-fg-muted'>
                         User Type, One App
                       </p>
                     </div>
                     <div>
-                      <p className='font-display text-lg font-bold text-fg md:text-xl'>
+                      <p className='font-display text-lg font-bold text-accent md:text-xl'>
                         0 to 1
                       </p>
                       <p className='mt-1 max-w-[14ch] font-sans text-xs leading-snug text-fg-muted'>
@@ -687,12 +687,12 @@ const SelectedWork = () => {
                   className='absolute bottom-6 right-6 flex h-12 w-12 items-center justify-center rounded-full bg-paper-100/15 backdrop-blur-sm transition-colors duration-2 ease-out hover:bg-paper-100/25'
                 >
                   <svg
-                    width={18}
-                    height={18}
+                    width={24}
+                    height={24}
                     viewBox='0 0 18 18'
                     fill='none'
                     aria-hidden='true'
-                    className='text-paper-100'
+                    className='text-black/70'
                   >
                     <path
                       d='M5.25 12.75L12.75 5.25M12.75 5.25H6.75M12.75 5.25V11.25'
