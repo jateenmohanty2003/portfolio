@@ -78,7 +78,7 @@ const Footer = () => {
                 </Link>
               </div>
               <nav
-                className='flex flex-wrap items-center gap-x-4 gap-y-3 md:gap-x-8'
+                className='flex flex-wrap items-center gap-x-2 gap-y-3 md:gap-x-8'
                 aria-label='Social links'
               >
                 <Link
