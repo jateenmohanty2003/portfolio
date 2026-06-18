@@ -2,6 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 import GooeyButton from './ui/GooeyButton';
+import Reveal from './Reveal';
 
 const Footer = () => {
   return (
@@ -77,7 +78,7 @@ const Footer = () => {
                 </Link>
               </div>
               <nav
-                className='flex flex-wrap items-center gap-x-6 gap-y-3 md:gap-x-8'
+                className='flex flex-wrap items-center gap-x-4 gap-y-3 md:gap-x-8'
                 aria-label='Social links'
               >
                 <Link
@@ -188,31 +189,33 @@ const Footer = () => {
           </p>
         </div>
       </div>
-      <div
-        className='w-full overflow-hidden pb-6 pt-2 md:pb-8 md:pt-3'
-        style={{
-          translate: 'none',
-          rotate: 'none',
-          scale: 'none',
-          transform: 'translate(0px, 0px)',
-          filter: 'blur(0px)',
-          opacity: 1,
-        }}
-      >
-        <Image
-          alt=''
-          aria-hidden='true'
-          loading='lazy'
-          width={2800}
-          height={316}
-          decoding='async'
-          data-nimg={1}
-          className='h-auto w-full select-none'
-          style={{ color: 'transparent' }}
-          sizes='100vw'
-          src='./jateen_footer.svg'
-        />
-      </div>
+      <Reveal threshold={0.2}>
+        <div
+          className='w-full overflow-hidden pb-6 pt-2 md:pb-8 md:pt-3'
+          style={{
+            translate: 'none',
+            rotate: 'none',
+            scale: 'none',
+            transform: 'translate(0px, 0px)',
+            filter: 'blur(0px)',
+            opacity: 1,
+          }}
+        >
+          <Image
+            alt=''
+            aria-hidden='true'
+            loading='lazy'
+            width={2800}
+            height={316}
+            decoding='async'
+            data-nimg={1}
+            className='h-auto w-full select-none'
+            style={{ color: 'transparent' }}
+            sizes='100vw'
+            src='./jateen_footer.svg'
+          />
+        </div>
+      </Reveal>
     </footer>
   );
 };

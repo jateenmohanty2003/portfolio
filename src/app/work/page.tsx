@@ -1,5 +1,8 @@
+import Reveal from "@/components/Reveal"
+import getImgUrl from "@/utils/imagePath"
+
 const Work = () => {
-    return <main>
+    return (<Reveal><main>
         <section className="relative flex min-h-[calc(100dvh-4rem)] flex-col bg-bg pb-0 pt-12">
             <div className="flex flex-1 flex-col items-center justify-center px-6 pb-16 md:px-10">
                 <div className="flex w-full max-w-[min(100%,88rem)] flex-col items-center text-center">
@@ -23,7 +26,7 @@ const Work = () => {
                             decoding="async"
                             data-nimg={1}
                             className="h-10 w-10 md:h-12 md:w-12"
-                            src="/Star.svg"
+                            src={getImgUrl('/Star.svg')}
                             style={{ color: "transparent" }}
                         />
                     </div>
@@ -95,7 +98,7 @@ const Work = () => {
                                             decoding="async"
                                             data-nimg={1}
                                             className="h-[1em] w-[1em] shrink-0 brightness-0 invert"
-                                            src="/Star 2.svg"
+                                            src={getImgUrl("/Star 2.svg")}
                                             style={{ color: "transparent" }}
                                         />
                                         <span className="whitespace-nowrap font-extrabold uppercase tracking-[0.02em] text-fg-inverse">
@@ -283,7 +286,7 @@ const Work = () => {
                 </div>
             </div>
         </section>
-    </main>
+    </main></Reveal>)
 
 }
 

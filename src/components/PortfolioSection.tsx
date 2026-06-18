@@ -20,13 +20,13 @@ const PortfolioSection = () => {
         <Reveal>
           <AboutMe />
         </Reveal>
-        <Reveal>
+        <Reveal threshold={0.05}>
           <SuperPower />
         </Reveal>
-        <Reveal>
+        <Reveal threshold={0.05}>
           <SelectedWork />
         </Reveal>
-        <Reveal>
+        <Reveal threshold={0.07}>
           <IhaveWorked />
         </Reveal>
         <Reveal>

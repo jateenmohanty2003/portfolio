@@ -184,7 +184,7 @@ const SelectedWork = () => {
           <Reveal>
             <article
               data-reveal-item='true'
-              className='grid min-h-[420px] grid-cols-1 overflow-hidden rounded-lg bg-surface-elevated shadow-sm lg:min-h-[480px] lg:grid-cols-2'
+              className='grid max-w-7xl min-h-[420px] grid-cols-1 overflow-hidden rounded-lg bg-surface-elevated shadow-sm lg:min-h-[480px] lg:grid-cols-2'
               style={{
                 translate: 'none',
                 rotate: 'none',
@@ -258,17 +258,17 @@ const SelectedWork = () => {
                       </p>
                     </div>
                   </div>
-                  <Link
-                    className='font-sans text-sm font-medium text-accent transition-colors duration-2 ease-out hover:underline'
-                    href='/work/one-moment'
-                  >
-                    View case study →
-                  </Link>
                 </div>
+                <Link
+                  className='font-sans text-sm font-medium text-accent transition-colors duration-2 ease-out mt-6 hover:underline'
+                  href='#'
+                >
+                  View case study →
+                </Link>
               </div>
               <div className='relative min-h-[280px] h-full w-full overflow-hidden lg:min-h-[480px]'>
                 <Image
-                  alt='One Moment project preview'
+                  alt='Ziarah project preview'
                   loading='lazy'
                   decoding='async'
                   data-nimg='fill'
@@ -289,7 +289,7 @@ const SelectedWork = () => {
                   src='./Ziarah_Cover1.png'
                 />
                 <Link
-                  href='https://onemomenthq.com'
+                  href='https://ziarah.ai/'
                   target='_blank'
                   rel='noopener noreferrer'
                   aria-label='Visit One Moment website'
@@ -318,7 +318,7 @@ const SelectedWork = () => {
           <Reveal>
             <article
               data-reveal-item='true'
-              className='grid min-h-[420px] grid-cols-1 overflow-hidden rounded-lg bg-surface-elevated shadow-sm lg:min-h-[480px] lg:grid-cols-2'
+              className='grid max-w-7xl min-h-[420px] grid-cols-1 overflow-hidden rounded-lg bg-surface-elevated shadow-sm lg:min-h-[480px] lg:grid-cols-2'
               style={{
                 translate: 'none',
                 rotate: 'none',
@@ -377,37 +377,35 @@ const SelectedWork = () => {
                 <div className='mt-10 flex flex-wrap items-end justify-between gap-6 md:mt-12'>
                   <div className='flex flex-wrap gap-x-10 gap-y-6'>
                     <div>
-                      <p className='font-display text-lg font-bold text-fg md:text-xl'>Investors</p>
+                      <p className='font-display text-lg font-bold text-fg md:text-xl'>100%</p>
                       <p className='mt-1 max-w-[14ch] font-sans text-xs leading-snug text-fg-muted'>
-                        Validated Product
+                        HR Workflow Coverage
                       </p>
                     </div>
                     <div>
-                      <p className='font-display text-lg font-bold text-fg md:text-xl'>REM-Based</p>
+                      <p className='font-display text-lg font-bold text-fg md:text-xl'>Investor</p>
                       <p className='mt-1 max-w-[14ch] font-sans text-xs leading-snug text-fg-muted'>
-                        Scalable design system
+                        Backed And Validated
                       </p>
                     </div>
                     <div>
-                      <p className='font-display text-lg font-bold text-fg md:text-xl'>
-                        Full Stack
-                      </p>
+                      <p className='font-display text-lg font-bold text-fg md:text-xl'>AI</p>
                       <p className='mt-1 max-w-[14ch] font-sans text-xs leading-snug text-fg-muted'>
-                        HRMS and ATS coverage
+                        Powered Candidate Scoring
                       </p>
                     </div>
                   </div>
-                  <Link
-                    className='font-sans text-sm font-medium text-accent transition-colors duration-2 ease-out hover:underline'
-                    href='/work/auxy-ai'
-                  >
-                    View case study →
-                  </Link>
                 </div>
+                <Link
+                  className='font-sans text-sm font-medium mt-6 text-accent transition-colors duration-2 ease-out hover:underline'
+                  href='#'
+                >
+                  View case study →
+                </Link>
               </div>
               <div className='relative min-h-[280px] h-full w-full overflow-hidden lg:min-h-[480px]'>
                 <Image
-                  alt='Meezo project preview'
+                  alt='Bue Suite project preview'
                   loading='lazy'
                   decoding='async'
                   data-nimg='fill'
@@ -428,7 +426,7 @@ const SelectedWork = () => {
                   src='./Bue Suite_Cover.png'
                 />
                 <Link
-                  href='https://auxy.ai'
+                  href='https://www.buesuite.com/'
                   target='_blank'
                   rel='noopener noreferrer'
                   aria-label='Visit Auxy.ai website'
@@ -457,7 +455,7 @@ const SelectedWork = () => {
           <Reveal>
             <article
               data-reveal-item='true'
-              className='grid min-h-[420px] grid-cols-1 overflow-hidden rounded-lg bg-surface-elevated shadow-sm lg:min-h-[480px] lg:grid-cols-2'
+              className='grid max-w-7xl min-h-[420px] grid-cols-1 overflow-hidden rounded-lg bg-surface-elevated shadow-sm lg:min-h-[480px] lg:grid-cols-2'
               style={{
                 translate: 'none',
                 rotate: 'none',
@@ -510,31 +508,31 @@ const SelectedWork = () => {
                 <div className='mt-10 flex flex-wrap items-end justify-between gap-6 md:mt-12'>
                   <div className='flex flex-wrap gap-x-10 gap-y-6'>
                     <div>
-                      <p className='font-display text-lg font-bold text-fg md:text-xl'>Zero</p>
+                      <p className='font-display text-lg font-bold text-fg md:text-xl'>Users Designed For</p>
                       <p className='mt-1 max-w-[14ch] font-sans text-xs leading-snug text-fg-muted'>
-                        Assumptions about users
+                        Low Literacy
                       </p>
                     </div>
                     <div>
                       <p className='font-display text-lg font-bold text-fg md:text-xl'>
-                        First Try
+                        1st Try
                       </p>
                       <p className='mt-1 max-w-[14ch] font-sans text-xs leading-snug text-fg-muted'>
-                        Task completion rate
+                        Average task Completion
                       </p>
                     </div>
                   </div>
-                  <Link
-                    className='font-sans text-sm font-medium text-accent transition-colors duration-2 ease-out hover:underline'
-                    href='/work/meezo'
-                  >
-                    View case study →
-                  </Link>
                 </div>
+                <Link
+                  className='font-sans text-sm font-medium text-accent mt-6 transition-colors duration-2 ease-out hover:underline'
+                  href='#'
+                >
+                  View case study →
+                </Link>
               </div>
               <div className='relative min-h-[280px] h-full w-full overflow-hidden lg:min-h-[480px]'>
                 <Image
-                  alt='Meezo project preview'
+                  alt='Battery Driver project preview'
                   loading='lazy'
                   decoding='async'
                   data-nimg='fill'
@@ -555,7 +553,134 @@ const SelectedWork = () => {
                   src='./BatteryDriver_Cover.png'
                 />
                 <Link
-                  href='https://www.meezopay.com'
+                  href='https://www.figma.com/design/BFiLiyI9nYiSOo2q9Yy6Cw/Jateen-BatteryDriver?node-id=0-1&t=59VKwhueSeeKM86H-1'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  aria-label='Visit Meezo website'
+                  className='absolute bottom-6 right-6 flex h-12 w-12 items-center justify-center rounded-full bg-paper-100/15 backdrop-blur-sm transition-colors duration-2 ease-out hover:bg-paper-100/25'
+                >
+                  <svg
+                    width={18}
+                    height={18}
+                    viewBox='0 0 18 18'
+                    fill='none'
+                    aria-hidden='true'
+                    className='text-paper-100'
+                  >
+                    <path
+                      d='M5.25 12.75L12.75 5.25M12.75 5.25H6.75M12.75 5.25V11.25'
+                      stroke='currentColor'
+                      strokeWidth='1.5'
+                      strokeLinecap='round'
+                      strokeLinejoin='round'
+                    />
+                  </svg>
+                </Link>
+              </div>
+            </article>
+          </Reveal>
+          <Reveal>
+            <article
+              data-reveal-item='true'
+              className='grid max-w-7xl min-h-[420px] grid-cols-1 overflow-hidden rounded-lg bg-surface-elevated shadow-sm lg:min-h-[480px] lg:grid-cols-2'
+              style={{
+                translate: 'none',
+                rotate: 'none',
+                scale: 'none',
+                transform: 'translate(0px, 0px)',
+                filter: 'blur(0px)',
+                opacity: 1,
+              }}
+            >
+              <div className='flex flex-col justify-between p-8 md:p-10 lg:p-12'>
+                <div>
+                  <p className='font-sans text-sm tabular-nums text-fg-muted'>04</p>
+                  <p className='mt-6 font-sans text-sm text-fg-muted'>
+                    Gatherly · Freelance<span className='mx-2 text-border-strong'>/</span>2025
+                  </p>
+                  <h3 className='mt-6 max-w-[20ch] font-display text-xl font-bold leading-[1.15] text-fg md:text-display-sm'>
+                    <span
+                      className='blur-word inline-block'
+                      style={{
+                        marginRight: '0.28em',
+                        translate: 'none',
+                        rotate: 'none',
+                        scale: 'none',
+                        transform: 'translate(0px, 0px)',
+                        filter: 'blur(0px)',
+                        opacity: 1,
+                      }}
+                    >
+                      See what's happening, Host what's next
+                    </span>
+                    <span
+                    >
+                    </span>
+                  </h3>
+                  <div className='mt-8 flex flex-wrap gap-2'>
+                    <span className='inline-flex rounded-full bg-bg-secondary px-3 py-1.5 font-sans text-2xs font-medium uppercase tracking-[0.12em] text-fg-secondary'>
+                      Social Platform
+                    </span>
+                    <span className='inline-flex rounded-full bg-bg-secondary px-3 py-1.5 font-sans text-2xs font-medium uppercase tracking-[0.12em] text-fg-secondary'>
+                      Event Management
+                    </span>
+                    <span className='inline-flex rounded-full bg-bg-secondary px-3 py-1.5 font-sans text-2xs font-medium uppercase tracking-[0.12em] text-fg-secondary'>
+                      UX Design
+                    </span>
+                    <span className='inline-flex rounded-full bg-bg-secondary px-3 py-1.5 font-sans text-2xs font-medium uppercase tracking-[0.12em] text-fg-secondary'>
+                      Mobile App
+                    </span>
+                  </div>
+                </div>
+                <div className='mt-10 flex flex-wrap items-end justify-between gap-6 md:mt-12'>
+                  <div className='flex flex-wrap gap-x-10 gap-y-6'>
+                    <div>
+                      <p className='font-display text-lg font-bold text-fg md:text-xl'>2</p>
+                      <p className='mt-1 max-w-[14ch] font-sans text-xs leading-snug text-fg-muted'>
+                        User Type, One App
+                      </p>
+                    </div>
+                    <div>
+                      <p className='font-display text-lg font-bold text-fg md:text-xl'>
+                        0 to 1
+                      </p>
+                      <p className='mt-1 max-w-[14ch] font-sans text-xs leading-snug text-fg-muted'>
+                        Built From Scratch
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <Link
+                  className='font-sans text-sm font-medium text-accent mt-6 transition-colors duration-2 ease-out hover:underline'
+                  href='#'
+                >
+                  View case study →
+                </Link>
+              </div>
+              <div className='relative min-h-[280px] h-full w-full overflow-hidden lg:min-h-[480px]'>
+                <Image
+                  alt='Gatherly project preview'
+                  loading='lazy'
+                  decoding='async'
+                  data-nimg='fill'
+                  className='object-center'
+                  width={100}
+                  height={100}
+                  style={{
+                    position: 'absolute',
+                    height: '100%',
+                    width: '100%',
+                    left: 0,
+                    top: 0,
+                    right: 0,
+                    bottom: 0,
+                    color: 'transparent',
+                  }}
+                  sizes='(max-width: 1024px) 100vw, 50vw'
+                  src='./Gatherly_Cover.png'
+                />
+                <Link
+                  href='https://www.figma.com/design/uCGtZqE8FFAR27u3JL7zBm/Freelance_Gatherly?node-id=0-1&t=C0LiRd09gxSUhFeS-1'
                   target='_blank'
                   rel='noopener noreferrer'
                   aria-label='Visit Meezo website'

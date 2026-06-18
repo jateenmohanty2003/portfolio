@@ -5,9 +5,9 @@ export const AboutMe = () => {
   return (
     <section
       aria-label='Introduction'
-      className='relative flex min-h-[100dvh] flex-col items-center justify-center border-t border-border bg-bg pb-12 pt-12 md:pb-16 md:pt-16'
+      className='relative flex min-h-[100dvh] flex-col items-center justify-center border-t border-border bg-bg pt-12 md:pb-10 md:pt-16'
     >
-      <div className='relative z-10 mx-auto mb-10 w-full max-w-container px-6 text-center md:mb-12 md:px-2'>
+      <div className='relative z-10 mx-auto mb-22 w-full max-w-container px-6 text-center md:mb-22 md:px-2'>
         <div className='mb-8 flex justify-center font-display text-display-md md:mb-10'>
           <Image
             alt=''
@@ -22,7 +22,7 @@ export const AboutMe = () => {
             src='./Star 2.svg'
           />
         </div>
-        <p className='font-display text-display-md font-extrabold uppercase tracking-[0.02em]'>
+        <p className='font-display text-display-sm font-extrabold uppercase tracking-[0.02em] md:text-display-md'>
           <span
             className='intro-word inline-block text-fg'
           >
@@ -52,7 +52,7 @@ export const AboutMe = () => {
         </p>
       </div>
       <div className='relative z-30 w-full' aria-label='I make cool stuff'>
-        <div className='flex w-full items-center overflow-x-clip bg-bg-inverse py-5 md:py-6'>
+        <div className='flex w-full -rotate-2 scale-[1.04] items-center overflow-x-clip bg-bg-inverse py-5 md:py-6'>
           <div className='flex w-max animate-marquee'>
             <div className='flex shrink-0'>
               <div className='flex shrink-0 items-center gap-8 pr-8 font-display text-marquee md:gap-10 md:pr-10'>
