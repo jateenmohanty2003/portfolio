@@ -5,7 +5,7 @@ const SuperPower = () => {
   return (
     <section
       id='expertise'
-      className='relative z-0 w-full max-w-full overflow-x-clip bg-bg pb-20 md:pb-24 md:pt-24'
+      className='relative z-0 w-full pt-12 max-w-full overflow-x-clip bg-bg pb-20 md:pb-24 md:pt-24'
     >
       <div className='w-full min-w-0 max-w-full overflow-x-clip px-4 sm:px-6 md:px-10'>
         <p className='mb-8 min-w-0 max-w-full break-words text-center font-sans text-[clamp(1.25rem,4.5vw,1.75rem)] font-medium uppercase tracking-[0.12em] text-fg-muted max-md:px-1 md:mb-12 md:text-display-sm'>
