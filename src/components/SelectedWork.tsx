@@ -582,7 +582,7 @@ const SelectedWork = () => {
           <Reveal>
             <article
               data-reveal-item='true'
-              className='grid max-w-7xl min-h-[420px] grid-cols-1 overflow-hidden rounded-lg bg-surface-elevated shadow-sm lg:min-h-[480px] lg:grid-cols-2'
+              className='grid max-w-7xl min-h-105 grid-cols-1 overflow-hidden rounded-lg bg-surface-elevated shadow-sm lg:min-h-[480px] lg:grid-cols-2'
               style={{
                 translate: 'none',
                 rotate: 'none',
@@ -611,7 +611,7 @@ const SelectedWork = () => {
                         opacity: 1,
                       }}
                     >
-                      See what's happening, Host what's next
+                      See what&apos;s happening, Host what&apos;s next
                     </span>
                     <span
                     >
@@ -657,7 +657,7 @@ const SelectedWork = () => {
                   View case study →
                 </Link>
               </div>
-              <div className='relative min-h-[280px] h-full w-full overflow-hidden lg:min-h-[480px]'>
+              <div className='relative min-h-70 h-full w-full overflow-hidden lg:min-h-120'>
                 <Image
                   alt='Gatherly project preview'
                   loading='lazy'

@@ -116,14 +116,14 @@ const PeopleSay = () => {
                 <div>
                   <p className='font-display text-base font-bold text-fg'>Hishore Kumar</p>
                   <p className='mt-0.5 font-sans text-sm text-fg-secondary'>
-                    Software Engineer, Victoria's Secret & Co.
+                    Software Engineer, Victoria&apos;s Secret & Co.
                   </p>
                 </div>
               </div>
             </article>
             <article className='flex w-[min(90vw,440px)] shrink-0 flex-col justify-between rounded-lg border border-border/10 bg-paper-50 p-8 shadow-sm md:w-[520px] md:p-10'>
               <p className='font-sans text-base leading-relaxed text-fg md:text-lg'>
-                “{/* */}Jateen came in and just got it. I didn't have to explain the brand twice or sit through rounds of completely wrong directions. He understood what Riquenza needed to feel like and designed something that actually looked like a premium skincare brand. The screens were clean, the flow made sense and our customers noticed the difference. Honestly one of the most stress free design experiences I have had”
+                “{/* */}Jateen came in and just got it. I didn&apos;t have to explain the brand twice or sit through rounds of completely wrong directions. He understood what Riquenza needed to feel like and designed something that actually looked like a premium skincare brand. The screens were clean, the flow made sense and our customers noticed the difference. Honestly one of the most stress free design experiences I have had”
                 {/* */}
               </p>
               <div className='mt-8 flex items-center gap-4'>

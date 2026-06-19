@@ -3,12 +3,16 @@ import './globals.css';
 import Image from 'next/image';
 import Link from 'next/link';
 import SmoothScroll from '@/components/SmoothScroll';
+import Loading from '@/components/Loading';
 
 export const metadata: Metadata = {
   title: 'Jateen Mohanty - Product Designer',
   description:
     'Portfolio for Jateen Mohanty, a product designer and AI builder based in Bangalore.',
-  metadataBase: process.env.NODE_ENV === 'production' ? new URL('https://jateenmohanty2003.github.io/portfolio') : new URL('http://localhost:3000/'), // Required for absolute image paths
+  metadataBase:
+    process.env.NODE_ENV === 'production'
+      ? new URL('https://jateenmohanty2003.github.io/portfolio')
+      : new URL('http://localhost:3000/'), // Required for absolute image paths
   openGraph: {
     images: [
       {
@@ -20,8 +24,7 @@ export const metadata: Metadata = {
     ],
   },
 };
-
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
@@ -29,12 +32,9 @@ export default function RootLayout({
   return (
     <html lang='en' className={` h-full antialiased`}>
       <body className='min-h-full'>
-        {/* <div className="fixed bottom-0 z-10 inset-0 flex h-full w-full justify-center [transform:skew(0deg)_translateY(100%)] group-hover:duration-1000 group-hover:[transform:skew(0deg)_translateY(-100%)]">
-          <div className="relative h-full w-full bg-accent" />
-        </div> */}
         <SmoothScroll />
         <div className='' style={{ opacity: 1, visibility: 'inherit' }}>
-          <header className='sticky top-0 z-50 h-16 w-full shrink-0 border-b border-border bg-bg'>
+          <header className='sticky top-0 z-10 h-16 w-full shrink-0 border-b border-border bg-bg'>
             <div className='mx-auto flex h-full max-w-none flex-nowrap items-center justify-between gap-8 px-6 md:px-10'>
               <Link
                 id='nav-logo-slot'
@@ -48,6 +48,7 @@ export default function RootLayout({
                   className='h-8 w-auto transition-opacity duration-3 ease-out opacity-100 '
                   width={157}
                   height={32}
+                  loading='eager'
                 />
               </Link>
               <div className='hidden flex-nowrap items-center gap-8 transition-opacity duration-3 ease-out md:flex opacity-100'>

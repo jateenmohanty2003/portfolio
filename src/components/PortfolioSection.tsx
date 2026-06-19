@@ -1,6 +1,3 @@
-import React from 'react';
-import Image from 'next/image';
-import Link from 'next/link';
 import Hero from './Hero';
 import Reveal from './Reveal';
 import { AboutMe } from './AboutMe';
