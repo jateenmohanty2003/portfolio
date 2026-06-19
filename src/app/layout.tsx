@@ -33,54 +33,53 @@ export default async function RootLayout({
     <html lang='en' className={` h-full antialiased`}>
       <body className='min-h-full'>
         <SmoothScroll />
-        <div className='' style={{ opacity: 1, visibility: 'inherit' }}>
-          <header className='sticky top-0 z-10 h-16 w-full shrink-0 border-b border-border bg-bg'>
-            <div className='mx-auto flex h-full max-w-none flex-nowrap items-center justify-between gap-8 px-6 md:px-10'>
+        <header className='sticky top-0 z-10 h-16 w-full shrink-0 border-b border-border bg-bg'>
+          <div className='mx-auto flex h-full max-w-none flex-nowrap items-center justify-between gap-8 px-6 md:px-10'>
+            <Link
+              id='nav-logo-slot'
+              href='/#home'
+              className='relative block h-8 shrink-0'
+              aria-label='Jateen Moahanty — home'
+            >
+              <Image
+                src='./jateen_logo.svg'
+                alt='Jateen Mohanty'
+                className='h-8 w-auto transition-opacity duration-3 ease-out opacity-100 '
+                width={157}
+                height={32}
+                loading='eager'
+              />
+            </Link>
+            <div className='hidden flex-nowrap items-center gap-8 transition-opacity duration-3 ease-out md:flex opacity-100'>
+              <nav className='flex flex-nowrap items-center gap-8' aria-label='Primary'>
+                <Link
+                  className=' whitespace-nowrap font-sans text-sm font-medium underline-offset-4 transition-colors duration-2 ease-out hover:underline text-fg-secondary hover:text-fg'
+                  href='/work'
+                >
+                  Work
+                </Link>
+                <Link
+                  className=' whitespace-nowrap font-sans text-sm font-medium underline-offset-4 transition-colors duration-2 ease-out hover:underline text-fg-secondary hover:text-fg'
+                  href='/#experience'
+                >
+                  Experience
+                </Link>
+              </nav>
               <Link
-                id='nav-logo-slot'
-                href='/'
-                className='relative block h-8 shrink-0'
-                aria-label='Jateen Moahanty — home'
+                href='/#work_with_me'
+                className='inline-flex items-center justify-center rounded-full bg-ink-900 font-sans font-semibold text-paper-100 whitespace-nowrap transition-all duration-2 ease-out hover:-translate-y-px hover:bg-ink-700 px-5 py-3 text-sm '
               >
-                <Image
-                  src='./jateen_logo.svg'
-                  alt='Jateen Mohanty'
-                  className='h-8 w-auto transition-opacity duration-3 ease-out opacity-100 '
-                  width={157}
-                  height={32}
-                  loading='eager'
-                />
+                Work with me
               </Link>
-              <div className='hidden flex-nowrap items-center gap-8 transition-opacity duration-3 ease-out md:flex opacity-100'>
-                <nav className='flex flex-nowrap items-center gap-8' aria-label='Primary'>
-                  <Link
-                    className=' whitespace-nowrap font-sans text-sm font-medium underline-offset-4 transition-colors duration-2 ease-out hover:underline text-fg-secondary hover:text-fg'
-                    href='/work'
-                  >
-                    Work
-                  </Link>
-                  <Link
-                    className=' whitespace-nowrap font-sans text-sm font-medium underline-offset-4 transition-colors duration-2 ease-out hover:underline text-fg-secondary hover:text-fg'
-                    href='/#experience'
-                  >
-                    Experience
-                  </Link>
-                </nav>
-                <Link
-                  href='/#work_with_me'
-                  className='inline-flex items-center justify-center rounded-full bg-ink-900 font-sans font-semibold text-paper-100 whitespace-nowrap transition-all duration-2 ease-out hover:-translate-y-px hover:bg-ink-700 px-5 py-3 text-sm '
-                >
-                  Work with me
-                </Link>
-              </div>
-              <div className='flex shrink-0 items-center gap-3 transition-opacity duration-3 ease-out md:hidden opacity-100'>
-                <Link
-                  href='/#work_with_me'
-                  className='inline-flex items-center justify-center rounded-full bg-ink-900 font-sans font-semibold text-paper-100 whitespace-nowrap transition-all duration-2 ease-out hover:-translate-y-px hover:bg-ink-700 px-4 py-2 text-xs '
-                >
-                  Work with me
-                </Link>
-                {/* <button
+            </div>
+            <div className='flex shrink-0 items-center gap-3 transition-opacity duration-3 ease-out md:hidden opacity-100'>
+              <Link
+                href='/#work_with_me'
+                className='inline-flex items-center justify-center rounded-full bg-ink-900 font-sans font-semibold text-paper-100 whitespace-nowrap transition-all duration-2 ease-out hover:-translate-y-px hover:bg-ink-700 px-4 py-2 text-xs '
+              >
+                Work with me
+              </Link>
+              {/* <button
               type='button'
               className='inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-md border transition-colors duration-2 ease-out border-border-strong text-fg hover:bg-bg-secondary'
               aria-expanded='false'
@@ -105,11 +104,10 @@ export default async function RootLayout({
                 <path d='M4 19h16' />
               </svg>
             </button> */}
-              </div>
             </div>
-          </header>
-          {children}
-        </div>
+          </div>
+        </header>
+        {children}
       </body>
     </html>
   );

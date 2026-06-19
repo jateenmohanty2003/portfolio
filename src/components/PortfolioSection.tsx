@@ -10,7 +10,7 @@ import Footer from './Footer';
 const PortfolioSection = () => {
   return (
     <>
-      <main>
+      <main id='home'>
         <Reveal>
           <Hero />
         </Reveal>

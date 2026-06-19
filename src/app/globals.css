@@ -145,14 +145,8 @@
   0% {
     transform: translateY(100%);
   }
-  25% {
-    transform: translateY(50%);
-  }
   50% {
     transform: translateY(0%);
-  }
-  75% {
-    transform: translateY(-50%);
   }
   100% {
     transform: translateY(-100%);
@@ -161,7 +155,7 @@
 
 /* Create a utility class you can use anywhere */
 .animate-slide-up {
-  animation: slideUp 0.5s ease-in-out forwards;
+  animation: slideUp 1s ease-in-out forwards;
 }
 
 .animate-accent-line-travel {
