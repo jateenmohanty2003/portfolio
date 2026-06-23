@@ -423,7 +423,7 @@ const IhaveWorked = () => {
                 </span>
               </div>
               <Link
-                href='https://coupl.money'
+                href='https://www.buesuite.com/'
                 target='_blank'
                 rel='noopener noreferrer'
                 className='group relative inline-flex items-center justify-center overflow-hidden rounded-sm bg-ink-900 px-5 py-2.5 font-sans text-sm font-semibold text-paper-100 mt-6'
