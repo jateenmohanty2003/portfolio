@@ -8,28 +8,29 @@ type AnimatedButtonProps = {
 };
 
 const AnimatedButton = ({ children, href, className = '' }: AnimatedButtonProps) => {
-  return (
-    <Link
-      href={href || '#'}
-      className={`
-        group
-        relative
-        inline-flex
-        overflow-hidden
-        rounded-full
-        bg-ink-900
-        px-[2.7em]
-        py-[1em]
-        font-sans
-        text-sm
-        font-semibold
-        text-white
-        cursor-pointer
-        active:scale-[0.97]
-        transition-transform
-        ${className}
-      `}
-    >
+  const isAnchor = href?.startsWith('#') || href?.includes('#') || href?.startsWith('http');
+
+  const commonClasses = `
+    group
+    relative
+    inline-flex
+    overflow-hidden
+    rounded-full
+    bg-ink-900
+    px-[2.7em]
+    py-[1em]
+    font-sans
+    text-sm
+    font-semibold
+    text-white
+    cursor-pointer
+    active:scale-[0.97]
+    transition-transform
+    ${className}
+  `;
+
+  const content = (
+    <>
       <span
         className='
           absolute
@@ -50,6 +51,20 @@ const AnimatedButton = ({ children, href, className = '' }: AnimatedButtonProps)
       />
 
       <span className='relative z-10'>{children}</span>
+    </>
+  );
+
+  if (isAnchor) {
+    return (
+      <a href={href || '#'} className={commonClasses}>
+        {content}
+      </a>
+    );
+  }
+
+  return (
+    <Link href={href || '#'} className={commonClasses}>
+      {content}
     </Link>
   );
 };
