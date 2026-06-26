@@ -45,7 +45,7 @@ const Footer = () => {
           <div className='mt-16 grid grid-cols-1 gap-12 lg:mt-20 lg:grid-cols-2 lg:gap-16'>
             <div
               data-reveal-item='true'
-              className='flex flex-col gap-8 md:gap-10 lg:max-w-md'
+              className='flex flex-col gap-8 md:gap-10'
               style={{
                 translate: 'none',
                 rotate: 'none',
@@ -78,7 +78,7 @@ const Footer = () => {
                 </Link>
               </div>
               <nav
-                className='flex flex-wrap items-center gap-x-2 gap-y-3 md:gap-x-8'
+                className='flex flex-wrap items-center gap-x-4 gap-y-5 md:gap-x-8'
                 aria-label='Social links'
               >
                 <Link

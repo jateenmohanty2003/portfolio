@@ -708,7 +708,7 @@ const SelectedWork = () => {
           </Reveal>
         </div>
         <div className='mt-12 flex justify-center md:mt-16'>
-          <AnimatedButton>View all my Crazy works</AnimatedButton>
+          <AnimatedButton href='/work'>View all my Crazy works</AnimatedButton>
         </div>
       </div>
     </section>

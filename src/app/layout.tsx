@@ -36,7 +36,7 @@ export default async function RootLayout({
       <body className='min-h-full'>
         <SmoothScroll />
         <header className='sticky top-0 z-10 h-16 w-full shrink-0 border-b border-border bg-bg'>
-          <div className='mx-auto flex h-full max-w-none flex-nowrap items-center justify-between gap-8 px-6 md:px-10'>
+          <div className='mx-auto flex h-full max-w-none flex-nowrap items-center justify-between gap-3 px-3 md:gap-8 md:px-6 md:px-10'>
             <Link
               id='nav-logo-slot'
               href='/#home'
