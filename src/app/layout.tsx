@@ -6,6 +6,7 @@ import SmoothScroll from '@/components/SmoothScroll';
 import Footer from '@/components/Footer';
 import Reveal from '@/components/Reveal';
 import MobileMenu from '@/components/MobileMenu';
+import AnchorLink from '@/components/ui/AnchorLink';
 
 export const metadata: Metadata = {
   title: 'Jateen Mohanty - Product Designer',
@@ -39,7 +40,7 @@ export default async function RootLayout({
         <SmoothScroll />
         <header className='sticky top-0 z-10 h-16 w-full shrink-0 border-b border-border bg-bg'>
           <div className='mx-auto flex h-full max-w-none flex-nowrap items-center justify-between gap-2 px-2 md:gap-8 md:px-6'>
-            <a
+            <AnchorLink
               id='nav-logo-slot'
               href={`${basePath}/#home`}
               className='relative block h-8 shrink-0'
@@ -53,7 +54,7 @@ export default async function RootLayout({
                 height={32}
                 loading='eager'
               />
-            </a>
+            </AnchorLink>
             <div className='hidden flex-nowrap items-center gap-8 transition-opacity duration-3 ease-out md:flex opacity-100'>
               <nav className='flex flex-nowrap items-center gap-8' aria-label='Primary'>
                 <Link
@@ -70,20 +71,20 @@ export default async function RootLayout({
                   Articles
                 </Link>
               </nav>
-              <a
+              <AnchorLink
                 href={`${basePath}/#work_with_me`}
                 className='inline-flex items-center justify-center rounded-full bg-ink-900 font-sans font-semibold text-paper-100 whitespace-nowrap transition-all duration-2 ease-out hover:-translate-y-px hover:bg-ink-700 px-5 py-3 text-sm '
               >
                 Work with me
-              </a>
+              </AnchorLink>
             </div>
             <div className='flex shrink-0 items-center gap-2 transition-opacity duration-3 ease-out md:hidden opacity-100'>
-              <a
+              <AnchorLink
                 href={`${basePath}/#work_with_me`}
                 className='inline-flex items-center justify-center rounded-full bg-ink-900 font-sans font-semibold text-paper-100 whitespace-nowrap transition-all duration-2 ease-out hover:-translate-y-px hover:bg-ink-700 px-3 py-2 text-xs '
               >
                 Work with me
-              </a>
+              </AnchorLink>
               <MobileMenu />
             </div>
           </div>

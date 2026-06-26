@@ -1,5 +1,8 @@
+'use client';
+
 import Link from 'next/link';
 import { ReactNode } from 'react';
+import { useRouter } from 'next/navigation';
 
 type AnimatedButtonProps = {
   children: ReactNode;
@@ -7,8 +10,32 @@ type AnimatedButtonProps = {
   className?: string;
 };
 
+const basePath = process.env.NODE_ENV === 'production' ? '/portfolio' : '';
+
 const AnimatedButton = ({ children, href, className = '' }: AnimatedButtonProps) => {
+  const router = useRouter();
   const isAnchor = href?.startsWith('#') || href?.includes('#') || href?.startsWith('http');
+
+  const handleClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
+    if (href && href.includes('#')) {
+      e.preventDefault();
+      const targetHash = href.split('#')[1];
+      const isHomePage =
+        window.location.pathname === '/' ||
+        window.location.pathname === '/portfolio' ||
+        window.location.pathname === '/portfolio/';
+
+      if (isHomePage) {
+        const element = document.getElementById(targetHash);
+        if (element) {
+          element.scrollIntoView({ behavior: 'smooth' });
+          window.history.pushState(null, '', `#${targetHash}`);
+        }
+      } else {
+        router.push(`/#${targetHash}`);
+      }
+    }
+  };
 
   const commonClasses = `
     group
@@ -56,7 +83,7 @@ const AnimatedButton = ({ children, href, className = '' }: AnimatedButtonProps)
 
   if (isAnchor) {
     return (
-      <a href={href || '#'} className={commonClasses}>
+      <a href={href || '#'} className={commonClasses} onClick={handleClick}>
         {content}
       </a>
     );
