@@ -30,15 +30,15 @@ const Work = () => {
                     src="./Star.svg"
                   />
                 </div>
-                <h1 className="w-full font-display text-[clamp(3.5rem,8vw,7.5rem)] font-extrabold leading-[0.9] tracking-[-0.03em] text-fg">
+                <h1 className="w-full font-display text-[clamp(3rem,8vw,7.5rem)] font-extrabold leading-[0.9] tracking-[-0.03em] text-fg">
                   <span className="block">
-                    <span className="blur-word inline-block">
+                    <span className="blur-word inline-block text-balance">
                       Things I've shipped <span className="text-accent bouncing-dot inline-block">.</span>
                     </span>
                   </span>
                 </h1>
                 <p className="mx-auto mt-6 max-w-prose font-sans text-base leading-relaxed text-fg-secondary md:mt-8 md:text-lg">
-                  <span className="blur-word inline-block">
+                  <span className="blur-word inline-block text-balance">
                     A small collection of work I'm proud of — each one taught me something new.
                   </span>
                 </p>
@@ -60,6 +60,7 @@ const Work = () => {
                           fill
                           sizes="(max-width: 768px) 100vw, 50vw"
                           src={project.image}
+                          loading="eager"
                           className="object-cover object-center transition-transform duration-100 ease-in-out group-hover:scale-[1.02]"
                         />
                       </div>

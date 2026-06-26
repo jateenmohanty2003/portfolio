@@ -32,11 +32,11 @@ export default async function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang='en' className={` h-full antialiased`}>
+    <html lang='en' className={`h-full antialiased`}>
       <body className='min-h-full'>
         <SmoothScroll />
         <header className='sticky top-0 z-10 h-16 w-full shrink-0 border-b border-border bg-bg'>
-          <div className='mx-auto flex h-full max-w-none flex-nowrap items-center justify-between gap-3 px-3 md:gap-8 md:px-6 md:px-10'>
+          <div className='mx-auto flex h-full max-w-none flex-nowrap items-center justify-between gap-2 px-2 md:gap-8 md:px-6'>
             <Link
               id='nav-logo-slot'
               href='/#home'
@@ -74,10 +74,10 @@ export default async function RootLayout({
                 Work with me
               </Link>
             </div>
-            <div className='flex shrink-0 items-center gap-3 transition-opacity duration-3 ease-out md:hidden opacity-100'>
+            <div className='flex shrink-0 items-center gap-2 transition-opacity duration-3 ease-out md:hidden opacity-100'>
               <Link
                 href='/#work_with_me'
-                className='inline-flex items-center justify-center rounded-full bg-ink-900 font-sans font-semibold text-paper-100 whitespace-nowrap transition-all duration-2 ease-out hover:-translate-y-px hover:bg-ink-700 px-4 py-2 text-xs '
+                className='inline-flex items-center justify-center rounded-full bg-ink-900 font-sans font-semibold text-paper-100 whitespace-nowrap transition-all duration-2 ease-out hover:-translate-y-px hover:bg-ink-700 px-3 py-2 text-xs '
               >
                 Work with me
               </Link>
