@@ -1,36 +1,89 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Jateen Mohanty — Product Designer & AI Builder Portfolio
 
-## Getting Started
+A sleek, premium, and highly performant personal portfolio built with Next.js, React, and Tailwind CSS. The design showcases professional work, product design philosophy, and core development capabilities, crafted with a high-fidelity editorial aesthetic.
 
-First, run the development server:
+---
+
+## ✨ Features & Design Highlights
+
+- **Modern Editorial Aesthetic**: Curated color palettes with a premium paper theme (`#f6f1e8` / `#eee7da`) in light mode and dark theme compatibility.
+- **Next.js App Router**: Built on Next.js 16 (App Router) and React 19 for optimized server-side rendering (SSR), image optimization, and routing.
+- **Lenis Smooth Scroll**: Elegant and fluid scrolling physics implemented project-wide.
+- **Micro-Animations & Scroll Effects**:
+  - Custom reveal-on-scroll component (`Reveal.tsx`) utilizing the native `IntersectionObserver` API.
+  - Interactive elements like gooey hover buttons and smooth SVG morphs.
+- **Responsive Mobile Dropdown**: Custom lightweight, interactive mobile header menu component (`MobileMenu.tsx`) featuring click-outside hooks and automatic viewport resize handling.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Framework**: Next.js 16 (App Router)
+- **Library**: React 19
+- **Styling**: Tailwind CSS v4 (`@theme` variables, CSS imports)
+- **Scroller**: Lenis
+- **Typography**: Typekit Integration (`loos-extended` for Display, `articulat-cf` / `Inter` for Sans-serif)
+
+---
+
+## 📁 Directory Structure
+
+```
+├── public/                 # Static assets (logos, illustrations, stars)
+├── src/
+│   ├── app/
+│   │   ├── work/           # Works/Case Studies list page
+│   │   ├── globals.css     # Global styles & custom Tailwind v4 theme settings
+│   │   ├── layout.tsx      # Main layout wrapper, Navigation Header & Footer
+│   │   └── page.tsx        # Homepage (Hero, SelectedWork, Experience, etc.)
+│   ├── components/
+│   │   ├── ui/             # Reusable UI components (Buttons, etc.)
+│   │   ├── AboutMe.tsx     # Bio & introduction section
+│   │   ├── Footer.tsx      # Multi-column footer & contact form section
+│   │   ├── Hero.tsx        # Title section with bold header elements
+│   │   ├── MobileMenu.tsx  # Mobile dropdown navigation card component
+│   │   └── Reveal.tsx      # Scroll reveal wrapper component
+│   └── constant/           # Mock data and configuration details
+```
+
+---
+
+## 🚀 Getting Started
+
+### 1. Prerequisites
+
+Make sure you have Node.js installed (version 18+ recommended).
+
+### 2. Install Dependencies
+
+```bash
+npm install
+```
+
+### 3. Run Development Server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser to view the application in development mode.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 4. Build for Production
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+To create an optimized production bundle:
 
-## Learn More
+```bash
+npm run build
+```
 
-To learn more about Next.js, take a look at the following resources:
+To run the built production version locally:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+npm run start
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 📄 License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is private. All rights reserved.
