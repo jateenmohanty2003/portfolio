@@ -96,11 +96,12 @@ export default function MobileMenu() {
                 Work
               </Link>
               <Link
-                href='/#experience'
+                href='https://medium.com/@jateenmohanty2003'
+                target='_blank'
                 onClick={() => setIsOpen(false)}
                 className='flex w-full items-center rounded-lg px-3 py-2.5 font-sans text-sm font-medium text-fg-secondary transition-colors hover:bg-bg-secondary hover:text-fg'
               >
-                Experience
+                Articles
               </Link>
             </nav>
           </div>
