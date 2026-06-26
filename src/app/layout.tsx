@@ -5,6 +5,7 @@ import Link from 'next/link';
 import SmoothScroll from '@/components/SmoothScroll';
 import Footer from '@/components/Footer';
 import Reveal from '@/components/Reveal';
+import MobileMenu from '@/components/MobileMenu';
 
 export const metadata: Metadata = {
   title: 'Jateen Mohanty - Product Designer',
@@ -80,31 +81,7 @@ export default async function RootLayout({
               >
                 Work with me
               </Link>
-              {/* <button
-              type='button'
-              className='inline-flex h-11 w-11 shrink-0 items-center justify-center rounded-md border transition-colors duration-2 ease-out border-border-strong text-fg hover:bg-bg-secondary'
-              aria-expanded='false'
-              aria-controls='_R_15fdb_'
-              aria-label='Open menu'
-            >
-              <svg
-                xmlns='http://www.w3.org/2000/svg'
-                width={24}
-                height={24}
-                viewBox='0 0 24 24'
-                fill='none'
-                stroke='currentColor'
-                strokeWidth='1.5'
-                strokeLinecap='round'
-                strokeLinejoin='round'
-                className='lucide lucide-menu h-5 w-5'
-                aria-hidden='true'
-              >
-                <path d='M4 5h16' />
-                <path d='M4 12h16' />
-                <path d='M4 19h16' />
-              </svg>
-            </button> */}
+              <MobileMenu />
             </div>
           </div>
         </header>

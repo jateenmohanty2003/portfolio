@@ -332,7 +332,7 @@ const SelectedWork = () => {
                 <div>
                   <p className='font-sans text-sm tabular-nums text-fg-muted'>02</p>
                   <p className='mt-6 font-sans text-sm text-fg-muted'>
-                    Buesuite.com<span className='mx-2 text-border-strong'>/</span>2025 - Present
+                    Teamora<span className='mx-2 text-border-strong'>/</span>2025 - Present
                   </p>
                   <h3 className='mt-6 max-w-[20ch] font-display text-xl font-bold leading-[1.15] text-fg md:text-display-sm'>
                     <span
@@ -423,13 +423,13 @@ const SelectedWork = () => {
                     color: 'transparent',
                   }}
                   sizes='(max-width: 1024px) 100vw, 50vw'
-                  src='./Bue Suite_Cover.png'
+                  src='./Teamora_Cover.png'
                 />
                 <Link
-                  href='https://www.buesuite.com/'
+                  href=''
                   target='_blank'
                   rel='noopener noreferrer'
-                  aria-label='Visit Auxy.ai website'
+                  aria-label='Visit Teamora website'
                   className='absolute bottom-6 right-6 flex h-12 w-12 items-center justify-center rounded-full bg-paper-100/15 backdrop-blur-sm transition-colors duration-2 ease-out hover:bg-paper-100/25'
                 >
                   <svg

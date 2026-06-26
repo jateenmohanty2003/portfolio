@@ -364,18 +364,18 @@ const IhaveWorked = () => {
                 <div className='flex min-w-0 flex-1 items-center gap-4'>
                   <div className='relative h-12 w-22 shrink-0 overflow-hidden rounded-xl border border-border bg-surface-card md:h-14 md:w-24'>
                     <Image
-                      alt='Bue Suite'
+                      alt='Temora'
                       loading='lazy'
                       decoding='async'
                       data-nimg='fill'
                       className='object-cover'
                       width={160}
                       height={160}
-                      src='./BueSuite_Logo.svg'
+                      src='./Teamora_Logo.svg'
                     />
                   </div>
                   <div className='min-w-0 pt-0.5'>
-                    <p className='font-display text-lg font-bold text-fg md:text-xl'>Bue Suite</p>
+                    <p className='font-display text-lg font-bold text-fg md:text-xl'>Teamora</p>
                     <p className='mt-1 font-sans text-base font-medium text-fg-secondary'>
                       Product Designer
                     </p>
@@ -422,7 +422,7 @@ const IhaveWorked = () => {
                   DESIGN SYSTEM
                 </span>
               </div>
-              <Link
+              {/* <Link
                 href='https://www.buesuite.com/'
                 target='_blank'
                 rel='noopener noreferrer'
@@ -440,6 +440,27 @@ const IhaveWorked = () => {
                   }}
                 />
                 <span className='relative z-10'>Visit website →</span>
+                <div className="absolute inset-0 flex h-full w-full justify-center [transform:skew(-12deg)_translateX(-100%)] group-hover:duration-1000 group-hover:[transform:skew(-12deg)_translateX(100%)]">
+                  <div className="relative h-full w-8 bg-white/20" />
+                </div>
+              </Link> */}
+              <Link
+                href="#"
+                rel='noopener noreferrer'
+                className='group cursor-not-allowed relative inline-flex items-center justify-center overflow-hidden rounded-sm bg-ink-900/60 px-5 py-2.5 font-sans text-sm font-semibold text-paper-100 mt-6'
+              >
+                <span
+                  className='pointer-events-none absolute inset-0'
+                  aria-hidden='true'
+                  style={{
+                    translate: 'none',
+                    rotate: 'none',
+                    scale: 'none',
+                    transformOrigin: '0% 50%',
+                    transform: 'scale(0, 1)',
+                  }}
+                />
+                <span className='relative z-10'>Under Development</span>
                 <div className="absolute inset-0 flex h-full w-full justify-center [transform:skew(-12deg)_translateX(-100%)] group-hover:duration-1000 group-hover:[transform:skew(-12deg)_translateX(100%)]">
                   <div className="relative h-full w-8 bg-white/20" />
                 </div>

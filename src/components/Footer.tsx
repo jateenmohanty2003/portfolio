@@ -123,6 +123,20 @@ const Footer = () => {
                     →
                   </span>
                 </Link>
+                <Link
+                  href='https://medium.com/@jateenmohanty2003'
+                  target='_blank'
+                  rel='noopener noreferrer'
+                  className='group inline-flex items-center gap-2 font-sans text-xs font-semibold uppercase tracking-[0.16em] text-fg transition-colors duration-2 ease-out hover:text-accent md:text-sm'
+                >
+                  Medium
+                  <span
+                    aria-hidden='true'
+                    className='inline-block -rotate-45 text-sm leading-none transition-transform duration-2 ease-out group-hover:translate-x-0.5 group-hover:-translate-y-0.5'
+                  >
+                    →
+                  </span>
+                </Link>
               </nav>
             </div>
             <div

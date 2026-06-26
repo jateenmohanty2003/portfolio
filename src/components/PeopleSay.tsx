@@ -144,12 +144,12 @@ const PeopleSay = () => {
               </p>
               <div className='mt-8 flex items-center gap-4'>
                 <div className='relative flex h-14 w-14 shrink-0 items-center justify-center overflow-hidden rounded-full border border-border bg-bg-secondary'>
-                  <span className='font-display text-sm font-bold text-fg'>NA</span>
+                  <span className='font-display text-sm font-bold text-fg'>TA</span>
                 </div>
                 <div>
-                  <p className='font-display text-base font-bold text-fg'>Naushad Ahmad</p>
+                  <p className='font-display text-base font-bold text-fg'>Tariq Ahmad</p>
                   <p className='mt-0.5 font-sans text-sm text-fg-secondary'>
-                    Founder, Bue Suite
+                    Founder, Teamora
                   </p>
                 </div>
               </div>

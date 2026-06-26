@@ -2,15 +2,17 @@ import Loading from '@/components/Loading';
 import Reveal from '@/components/Reveal';
 import Image from 'next/image';
 import { WORK_ITEMS } from '@/constant/work';
+import Link from 'next/link';
 
 const Work = () => {
   return (
     <>
       <Loading />
-      <Reveal>
-        <main>
-          <section className="bg-bg px-6 pb-20 pt-24 md:px-12 md:pt-[140px]">
-            <div className="mx-auto w-full max-w-container">
+      <main>
+        {/* <Reveal> */}
+        <section className="bg-bg px-6 pb-20  pt-24 md:px-12 md:pt-[140px]">
+          <div className="mx-auto w-full max-w-container">
+            <Reveal>
               <div className="flex w-full flex-col items-center text-center">
                 <div
                   className="mb-10 flex justify-center md:mb-12"
@@ -41,22 +43,24 @@ const Work = () => {
                   </span>
                 </p>
               </div>
-              <div className="mt-20 grid grid-cols-1 gap-6 md:grid-cols-2 md:gap-8">
-                {WORK_ITEMS.map((project) => (
+            </Reveal>
+            <div className="mt-20 grid grid-cols-1 gap-6 md:grid-cols-2 md:gap-8">
+              {WORK_ITEMS.map((project) => (
+                <Reveal className="h-full">
                   <div
                     key={project.id}
                     data-work-card="true"
-                    className="will-change-transform scroll-straighten"
+                    className="will-change-transform scroll-straighten h-full"
                     style={project.style}
                   >
-                    <article className="group flex h-full flex-col overflow-hidden border border-border bg-bg-secondary transition-all duration-[250ms] ease-out hover:border-accent hover:bg-bg ">
+                    <article className="group flex h-full flex-col overflow-hidden border border-border bg-bg-secondary transition-all duration-250 ease-in-out hover:border-accent hover:bg-bg ">
                       <div className="relative w-full overflow-hidden aspect-[4/3]">
                         <Image
                           alt={`${project.title} project preview`}
                           fill
                           sizes="(max-width: 768px) 100vw, 50vw"
                           src={project.image}
-                          className="object-cover object-center transition-transform duration-3 ease-out group-hover:scale-[1.02]"
+                          className="object-cover object-center transition-transform duration-100 ease-in-out group-hover:scale-[1.02]"
                         />
                       </div>
                       <div className="flex flex-1 flex-col p-6 md:p-10">
@@ -78,33 +82,33 @@ const Work = () => {
                           ))}
                         </div>
                         <div className="mt-6 flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:items-center">
-                          <a
+                          {project.caseStudyUrl && <Link
                             className="inline-flex items-center justify-center rounded-pill font-sans text-sm font-semibold whitespace-nowrap transition-all duration-2 ease-out hover:-translate-y-px min-h-11 bg-ink-900 px-5 py-3 text-paper-100 hover:bg-ink-700 w-full sm:w-auto "
                             href={project.caseStudyUrl}
                           >
                             Read case study →
-                          </a>
+                          </Link>}
                           {project.liveUrl && (
-                            <a
+                            <Link
                               href={project.liveUrl}
                               target="_blank"
                               rel="noopener noreferrer"
                               className="inline-flex items-center justify-center rounded-pill font-sans text-sm font-semibold whitespace-nowrap transition-all duration-2 ease-out hover:-translate-y-px min-h-11 border border-border-strong bg-transparent px-5 py-3 text-fg hover:border-accent hover:bg-accent hover:text-paper-100 w-full sm:w-auto "
                             >
                               Visit Live website →
-                            </a>
+                            </Link>
                           )}
                         </div>
                       </div>
                     </article>
                   </div>
-                ))}
-              </div>
+                </Reveal>
+              ))}
             </div>
-          </section>
-        </main>
-
-      </Reveal>
+          </div>
+        </section>
+        {/* </Reveal> */}
+      </main>
     </>
   );
 };
