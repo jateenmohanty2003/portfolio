@@ -7,6 +7,8 @@ import Footer from '@/components/Footer';
 import Reveal from '@/components/Reveal';
 import MobileMenu from '@/components/MobileMenu';
 
+const basePath = process.env.NODE_ENV === 'production' ? '/portfolio' : '';
+
 export const metadata: Metadata = {
   title: 'Jateen Mohanty - Product Designer',
   description:
@@ -39,7 +41,7 @@ export default async function RootLayout({
           <div className='mx-auto flex h-full max-w-none flex-nowrap items-center justify-between gap-2 px-2 md:gap-8 md:px-6'>
             <Link
               id='nav-logo-slot'
-              href='/#home'
+              href={`${basePath}/#home`}
               className='relative block h-8 shrink-0'
               aria-label='Jateen Moahanty — home'
             >
@@ -69,7 +71,7 @@ export default async function RootLayout({
                 </Link>
               </nav>
               <Link
-                href='/#work_with_me'
+                href={`${basePath}/#work_with_me`}
                 className='inline-flex items-center justify-center rounded-full bg-ink-900 font-sans font-semibold text-paper-100 whitespace-nowrap transition-all duration-2 ease-out hover:-translate-y-px hover:bg-ink-700 px-5 py-3 text-sm '
               >
                 Work with me
@@ -77,7 +79,7 @@ export default async function RootLayout({
             </div>
             <div className='flex shrink-0 items-center gap-2 transition-opacity duration-3 ease-out md:hidden opacity-100'>
               <Link
-                href='/#work_with_me'
+                href={`${basePath}/#work_with_me`}
                 className='inline-flex items-center justify-center rounded-full bg-ink-900 font-sans font-semibold text-paper-100 whitespace-nowrap transition-all duration-2 ease-out hover:-translate-y-px hover:bg-ink-700 px-3 py-2 text-xs '
               >
                 Work with me

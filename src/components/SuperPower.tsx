@@ -1,6 +1,8 @@
 import React from 'react';
 import AnimatedButton from './ui/AnimatedButton';
 
+const basePath = process.env.NODE_ENV === 'production' ? '/portfolio' : '';
+
 const SuperPower = () => {
   return (
     <section
@@ -330,7 +332,7 @@ const SuperPower = () => {
           </div>
         </article>
         <div data-reveal-item='true' className='flex justify-center pt-8 md:pt-12'>
-          <AnimatedButton href='/#work_with_me'>Work with me →</AnimatedButton>
+          <AnimatedButton href={`${basePath}/#work_with_me`}>Work with me →</AnimatedButton>
         </div>
       </div>
     </section>
