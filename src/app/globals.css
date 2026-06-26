@@ -108,6 +108,7 @@
   0% {
     transform: translateY(0);
   }
+
   to {
     transform: translateY(calc(100% - 1rem));
   }
@@ -117,16 +118,19 @@
   0% {
     transform: translateX(0);
   }
+
   to {
     transform: translateX(-50%);
   }
 }
 
 @keyframes status-dot-pulse {
+
   0%,
   to {
     box-shadow: 0 0 0 3px color-mix(in oklab, var(--color-leaf-500) 18%, transparent);
   }
+
   50% {
     box-shadow: 0 0 0 6px color-mix(in oklab, var(--color-leaf-500) 8%, transparent);
   }
@@ -136,6 +140,7 @@
   0% {
     transform: translateX(0);
   }
+
   to {
     transform: translateX(-50%);
   }
@@ -145,9 +150,11 @@
   0% {
     transform: translateY(100%);
   }
+
   50% {
     transform: translateY(0%);
   }
+
   100% {
     transform: translateY(-100%);
   }
@@ -161,12 +168,15 @@
 .animate-accent-line-travel {
   animation: accent-line-travel 2.4s ease-in-out infinite alternate;
 }
+
 .animate-marquee {
   animation: marquee 24s linear infinite;
 }
+
 .animate-status-dot-pulse {
   animation: status-dot-pulse 2.4s cubic-bezier(0.65, 0, 0.35, 1) infinite;
 }
+
 .animate-testimonials-scroll {
   animation: testimonials-scroll 36s linear infinite;
   animation-delay: 1s;
@@ -174,6 +184,7 @@
 }
 
 @media (prefers-reduced-motion: reduce) {
+
   .animate-accent-line-travel,
   .animate-marquee,
   .animate-status-dot-pulse,
@@ -183,5 +194,61 @@
 
   .animate-accent-line-travel {
     transform: translateY(-50%);
+  }
+}
+
+@keyframes straighten-card {
+  to {
+    transform: none;
+    opacity: 1;
+  }
+}
+
+.scroll-straighten {
+  animation: straighten-card ease-in-out both;
+  animation-timeline: view();
+  animation-range: entry 10% cover 45%;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .scroll-straighten {
+    animation: none;
+  }
+}
+
+@keyframes bounce-dot {
+
+  0%,
+  100% {
+    transform: translateY(0) scaleY(1) scaleX(1);
+    animation-timing-function: cubic-bezier(0.3, 0.61, 0.355, 1);
+  }
+
+  45% {
+    transform: translateY(-20px) scaleY(1.05) scaleX(0.95);
+    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+  }
+
+  50% {
+    transform: translateY(-24px) scaleY(1) scaleX(1);
+    animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+  }
+
+  90% {
+    transform: translateY(0) scaleY(0.75) scaleX(1.25);
+    transform-origin: bottom;
+  }
+}
+
+.bouncing-dot {
+  display: inline-block;
+  vertical-align: baseline;
+  transform-origin: bottom center;
+  animation: bounce-dot 1.5s infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .bouncing-dot {
+    animation: none;
   }
 }

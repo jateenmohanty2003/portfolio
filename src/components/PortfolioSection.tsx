@@ -5,7 +5,6 @@ import SuperPower from './SuperPower';
 import SelectedWork from './SelectedWork';
 import IhaveWorked from './IhaveWorked';
 import PeopleSay from './PeopleSay';
-import Footer from './Footer';
 
 const PortfolioSection = () => {
   return (
@@ -30,9 +29,6 @@ const PortfolioSection = () => {
           <PeopleSay />
         </Reveal>
       </main>
-      <Reveal>
-        <Footer />
-      </Reveal>
     </>
   );
 };

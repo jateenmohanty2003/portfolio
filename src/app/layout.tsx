@@ -3,7 +3,8 @@ import './globals.css';
 import Image from 'next/image';
 import Link from 'next/link';
 import SmoothScroll from '@/components/SmoothScroll';
-import Loading from '@/components/Loading';
+import Footer from '@/components/Footer';
+import Reveal from '@/components/Reveal';
 
 export const metadata: Metadata = {
   title: 'Jateen Mohanty - Product Designer',
@@ -108,6 +109,9 @@ export default async function RootLayout({
           </div>
         </header>
         {children}
+        <Reveal>
+          <Footer />
+        </Reveal>
       </body>
     </html>
   );

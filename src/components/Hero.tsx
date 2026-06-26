@@ -154,7 +154,7 @@ const Hero = () => {
                 </span>
               </span>
               {/* <div className='h-4 w-4 bg-accent rounded-full animate-bounce '></div> */}
-              <span className='text-accent'>.</span>
+              <span className='text-accent bouncing-dot inline-block'>.</span>
             </span>
           </h1>
         </div>
