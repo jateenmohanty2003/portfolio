@@ -1,8 +1,8 @@
-import Loading from '@/components/Loading';
-import Reveal from '@/components/Reveal';
-import Image from 'next/image';
-import { WORK_ITEMS } from '@/constant/work';
-import Link from 'next/link';
+import Loading from "@/components/Loading";
+import Reveal from "@/components/Reveal";
+import Image from "next/image";
+import { WORK_ITEMS } from "@/constant/work";
+import Link from "next/link";
 
 const Work = () => {
   return (
@@ -14,9 +14,7 @@ const Work = () => {
           <div className="mx-auto w-full max-w-container">
             <Reveal>
               <div className="flex w-full flex-col items-center text-center">
-                <div
-                  className="mb-10 flex justify-center md:mb-12"
-                >
+                <div className="mb-10 flex justify-center md:mb-12">
                   <Image
                     alt=""
                     aria-hidden="true"
@@ -33,20 +31,24 @@ const Work = () => {
                 <h1 className="w-full font-display text-[clamp(3rem,8vw,7.5rem)] font-extrabold leading-[0.9] tracking-[-0.03em] text-fg">
                   <span className="block">
                     <span className="blur-word inline-block text-balance">
-                      Things I've shipped <span className="text-accent bouncing-dot inline-block">.</span>
+                      Things I&apos;ve shipped&nbsp;
+                      <span className="text-accent bouncing-dot inline-block">
+                        .
+                      </span>
                     </span>
                   </span>
                 </h1>
                 <p className="mx-auto mt-6 max-w-prose font-sans text-base leading-relaxed text-fg-secondary md:mt-8 md:text-lg">
                   <span className="blur-word inline-block text-balance">
-                    A small collection of work I'm proud of — each one taught me something new.
+                    A small collection of work I&apos;m proud of — each one taught me
+                    something new.
                   </span>
                 </p>
               </div>
             </Reveal>
             <div className="mt-20 grid grid-cols-1 gap-6 md:grid-cols-2 md:gap-8">
-              {WORK_ITEMS.map((project) => (
-                <Reveal className="h-full">
+              {WORK_ITEMS.map((project, idx) => (
+                <Reveal className="h-full" key={idx}>
                   <div
                     key={project.id}
                     data-work-card="true"
@@ -65,7 +67,9 @@ const Work = () => {
                         />
                       </div>
                       <div className="flex flex-1 flex-col p-6 md:p-10">
-                        <p className="font-sans text-sm text-fg-muted">{project.title}</p>
+                        <p className="font-sans text-sm text-fg-muted">
+                          {project.title}
+                        </p>
                         <h2 className="mt-2 font-display font-bold leading-[1.1] text-fg text-[clamp(1.375rem,2.5vw,2rem)]">
                           {project.subtitle}
                         </h2>
@@ -83,12 +87,14 @@ const Work = () => {
                           ))}
                         </div>
                         <div className="mt-6 flex flex-col gap-3 sm:flex-row sm:flex-wrap sm:items-center">
-                          {project.caseStudyUrl && <Link
-                            className="inline-flex items-center justify-center rounded-pill font-sans text-sm font-semibold whitespace-nowrap transition-all duration-2 ease-out hover:-translate-y-px min-h-11 bg-ink-900 px-5 py-3 text-paper-100 hover:bg-ink-700 w-full sm:w-auto "
-                            href={project.caseStudyUrl}
-                          >
-                            Read case study →
-                          </Link>}
+                          {project.caseStudyUrl && (
+                            <Link
+                              className="inline-flex items-center justify-center rounded-pill font-sans text-sm font-semibold whitespace-nowrap transition-all duration-2 ease-out hover:-translate-y-px min-h-11 bg-ink-900 px-5 py-3 text-paper-100 hover:bg-ink-700 w-full sm:w-auto "
+                              href={project.caseStudyUrl}
+                            >
+                              Read case study →
+                            </Link>
+                          )}
                           {project.liveUrl && (
                             <Link
                               href={project.liveUrl}

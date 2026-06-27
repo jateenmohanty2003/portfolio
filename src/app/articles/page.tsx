@@ -3,6 +3,7 @@ import Reveal from '@/components/Reveal';
 import Link from 'next/link';
 import { ARTICLES_ITEMS } from '@/constant/articles';
 import AnimatedButton from '@/components/ui/AnimatedButton';
+import Image from 'next/image';
 
 export default function Articles() {
   return (
@@ -10,28 +11,24 @@ export default function Articles() {
       <Loading />
       <main className="bg-bg">
         {/* Header Section */}
-        <section className="px-6 pb-12 pt-24 md:px-12 md:pt-[140px]">
+        <section className="px-6 pb-12 pt-24 md:px-12 md:pt-35">
           <div className="mx-auto w-full max-w-container">
             <Reveal>
               <div className="flex w-full flex-col items-center text-center">
                 <div className="mb-10 flex justify-center md:mb-12 text-accent">
                   {/* Decorative Book/Writing SVG Icon */}
-                  <svg
-                    width="48"
-                    height="48"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="1.5"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    className="h-10 w-10 md:h-12 md:w-12 animate-pulse"
-                  >
-                    <path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H20v20H6.5a2.5 2.5 0 0 1-2.5-2.5Z" />
-                    <path d="M6 6h10" />
-                    <path d="M6 10h10" />
-                    <path d="M13 14h3" />
-                  </svg>
+                  <Image
+                    alt=""
+                    aria-hidden="true"
+                    loading="lazy"
+                    width={48}
+                    height={48}
+                    decoding="async"
+                    data-nimg={1}
+                    className="h-10 w-10 md:h-12 md:w-12"
+                    style={{ color: "transparent" }}
+                    src="./Star.svg"
+                  />
                 </div>
                 <h1 className="w-full font-display text-[clamp(2.5rem,7vw,6.5rem)] font-extrabold leading-[0.95] tracking-[-0.03em] text-fg">
                   <span className="block">
